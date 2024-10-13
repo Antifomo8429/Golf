@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高爾夫球團體賽賽程與排名</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>高爾夫球團體賽賽程</h1>
+    <table id="schedule">
+        <thead>
+            <tr>
+                <th>比賽日期</th>
+                <th>隊伍 A</th>
+                <th>隊伍 B</th>
+                <th>比賽地點</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024-10-15</td>
+                <td>隊伍 1</td>
+                <td>隊伍 2</td>
+                <td>台北球場</td>
+            </tr>
+            <!-- 更多賽程可在此添加 -->
+        </tbody>
+    </table>
+
+    <h1>分組排名</h1>
+    <table id="rankings">
+        <thead>
+            <tr>
+                <th>組別</th>
+                <th>隊伍</th>
+                <th>分數</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A 組</td>
+                <td>隊伍 1</td>
+                <td>85</td>
+            </tr>
+            <!-- 更多排名可在此添加 -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
