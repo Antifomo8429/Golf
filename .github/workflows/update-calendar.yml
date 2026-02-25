@@ -33,6 +33,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate calendar
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python generate_calendar.py
 
       - name: Commit and push changes

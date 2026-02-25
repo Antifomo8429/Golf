@@ -8,6 +8,7 @@
 - 產生標準 ICS 行事曆檔案，可匯入 Google Calendar / Apple 行事曆 / Outlook
 - 透過 GitHub Pages 提供行事曆訂閱網址，訂閱後自動同步更新
 - 涵蓋前一年、當年及隔年的拍賣資料
+- 資料有任何變動時，自動發送 Discord 通知（新增、更新、移除）
 
 ## 行事曆事件類型
 
@@ -42,6 +43,21 @@ python generate_calendar.py
 
 透過 GitHub Actions 每日台灣時間早上 8:00 自動執行，並部署至 GitHub Pages。
 也可手動觸發 workflow（Actions → Update TWSE Auction Calendar → Run workflow）。
+
+## Discord 通知設定
+
+當拍賣資料有任何欄位變動（新增拍賣、欄位更新、移除拍賣）時，會自動發送 Discord 通知。
+
+設定方式：
+
+1. 在 Discord 頻道設定中，建立一個 **Webhook**，取得 Webhook URL
+2. 到 GitHub 的 **Settings → Secrets and variables → Actions**
+3. 新增一個 Secret，名稱為 `DISCORD_WEBHOOK_URL`，值為步驟 1 取得的 URL
+
+通知範例：
+- 🆕 **新增拍賣**：顯示證券名稱、代號、投標期間、開標日等完整資訊
+- 📝 **資料更新**：顯示哪些欄位從什麼值變成什麼值
+- ❌ **已移除**：顯示被移除的拍賣資訊
 
 ## 資料來源
 
