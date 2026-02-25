@@ -1,0 +1,38 @@
+name: Update TWSE auction calendar
+
+on:
+  schedule:
+    # 每天更新一次（UTC 時間；台灣時間約為隔日凌晨）
+    - cron: "10 18 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate .ics
+        run: python3 scripts/twse_auction_calendar.py --output twse-auction.ics
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add twse-auction.ics
+          git commit -m "chore: update TWSE auction calendar"
+          git push
+

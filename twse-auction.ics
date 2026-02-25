@@ -1,0 +1,1205 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//twse-auction-calendar//twse-auction-calendar//ZH-HANT
+X-WR-CALNAME:TWSE 競價拍賣日程（自動更新）
+X-WR-TIMEZONE:Asia/Taipei
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-33247-20260226@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+SUMMARY:競價拍賣：雙鴻七(33247) 投標開始
+DESCRIPTION:投標期間：2026/02/26 ~ 2026/03/03\n\n證券名稱：雙鴻七\n證券代號：33247\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：17\,000\n最低投標價格(元)：102\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：1\,700\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：凱基\n資料來源：
+ https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-33247-20260303@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+SUMMARY:競價拍賣：雙鴻七(33247) 投標結束
+DESCRIPTION:投標期間：2026/02/26 ~ 2026/03/03\n\n證券名稱：雙鴻七\n證券代號：33247\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：17\,000\n最低投標價格(元)：102\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：1\,700\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：凱基\n資料來源：
+ https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-33247-20260305@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+SUMMARY:競價拍賣：雙鴻七(33247) 開標日
+DESCRIPTION:投標期間：2026/02/26 ~ 2026/03/03\n\n證券名稱：雙鴻七\n證券代號：33247\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：17\,000\n最低投標價格(元)：102\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：1\,700\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：凱基\n資料來源：
+ https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-33247-20260316@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:競價拍賣：雙鴻七(33247) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/02/26 ~ 2026/03/03\n\n證券名稱：雙鴻七\n證券代號：33247\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：17\,000\n最低投標價格(元)：102\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：1\,700\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：凱基\n資料來源：
+ https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-65152-20260121@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260121
+DTEND;VALUE=DATE:20260122
+SUMMARY:競價拍賣：穎崴二(65152) 投標開始
+DESCRIPTION:投標期間：2026/01/21 ~ 2026/01/23\n\n證券名稱：穎崴二\n證券代號：65152\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：25\,500\n最低投標價格(元)：103\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：2\,550\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：凱基\n資料來源：
+ https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-65152-20260123@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260123
+DTEND;VALUE=DATE:20260124
+SUMMARY:競價拍賣：穎崴二(65152) 投標結束
+DESCRIPTION:投標期間：2026/01/21 ~ 2026/01/23\n\n證券名稱：穎崴二\n證券代號：65152\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：25\,500\n最低投標價格(元)：103\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：2\,550\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：凱基\n資料來源：
+ https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-65152-20260127@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260127
+DTEND;VALUE=DATE:20260128
+SUMMARY:競價拍賣：穎崴二(65152) 開標日
+DESCRIPTION:投標期間：2026/01/21 ~ 2026/01/23\n\n證券名稱：穎崴二\n證券代號：65152\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：25\,500\n最低投標價格(元)：103\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：2\,550\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：凱基\n資料來源：
+ https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-65152-20260205@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:競價拍賣：穎崴二(65152) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/21 ~ 2026/01/23\n\n證券名稱：穎崴二\n證券代號：65152\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：25\,500\n最低投標價格(元)：103\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：2\,550\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：凱基\n資料來源：
+ https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-7823-20260121@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260121
+DTEND;VALUE=DATE:20260122
+SUMMARY:競價拍賣：奧義賽博-KY創(7823) 投標開始
+DESCRIPTION:投標期間：2026/01/21 ~ 2026/01/23\n\n證券名稱：奧義賽博-KY創\n證券代號：7823\n發行市
+ 場：創新板\n發行性質：創新板第一上市初上市\n競拍方式：美國標\n競拍數量(張)：1\,580\n最低投標價格(元)：70.31\n最低每標單
+ 投標數量(張)：1\n最高投(得)標數量(張)：178\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料
+ 來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-7823-20260123@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260123
+DTEND;VALUE=DATE:20260124
+SUMMARY:競價拍賣：奧義賽博-KY創(7823) 投標結束
+DESCRIPTION:投標期間：2026/01/21 ~ 2026/01/23\n\n證券名稱：奧義賽博-KY創\n證券代號：7823\n發行市
+ 場：創新板\n發行性質：創新板第一上市初上市\n競拍方式：美國標\n競拍數量(張)：1\,580\n最低投標價格(元)：70.31\n最低每標單
+ 投標數量(張)：1\n最高投(得)標數量(張)：178\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料
+ 來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-7823-20260127@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260127
+DTEND;VALUE=DATE:20260128
+SUMMARY:競價拍賣：奧義賽博-KY創(7823) 開標日
+DESCRIPTION:投標期間：2026/01/21 ~ 2026/01/23\n\n證券名稱：奧義賽博-KY創\n證券代號：7823\n發行市
+ 場：創新板\n發行性質：創新板第一上市初上市\n競拍方式：美國標\n競拍數量(張)：1\,580\n最低投標價格(元)：70.31\n最低每標單
+ 投標數量(張)：1\n最高投(得)標數量(張)：178\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料
+ 來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-7823-20260205@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:競價拍賣：奧義賽博-KY創(7823) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/21 ~ 2026/01/23\n\n證券名稱：奧義賽博-KY創\n證券代號：7823\n發行市
+ 場：創新板\n發行性質：創新板第一上市初上市\n競拍方式：美國標\n競拍數量(張)：1\,580\n最低投標價格(元)：70.31\n最低每標單
+ 投標數量(張)：1\n最高投(得)標數量(張)：178\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料
+ 來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-35872-20260120@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260121
+SUMMARY:競價拍賣：閎康二(35872) 投標開始
+DESCRIPTION:投標期間：2026/01/20 ~ 2026/01/22\n\n證券名稱：閎康二\n證券代號：35872\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：595\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-35872-20260122@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:競價拍賣：閎康二(35872) 投標結束
+DESCRIPTION:投標期間：2026/01/20 ~ 2026/01/22\n\n證券名稱：閎康二\n證券代號：35872\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：595\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-35872-20260126@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260127
+SUMMARY:競價拍賣：閎康二(35872) 開標日
+DESCRIPTION:投標期間：2026/01/20 ~ 2026/01/22\n\n證券名稱：閎康二\n證券代號：35872\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：595\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-35872-20260204@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260205
+SUMMARY:競價拍賣：閎康二(35872) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/20 ~ 2026/01/22\n\n證券名稱：閎康二\n證券代號：35872\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：595\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-5547-20260119@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:競價拍賣：久舜(5547) 投標開始
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：久舜\n證券代號：5547\n發行市場：櫃檯買賣
+ \n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：3\,624\n最低投標價格(元)：17\n最低每標單投標數量(張)：1\n最高投(
+ 得)標數量(張)：520\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：康和\n資料來源：https://www.
+ twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-5547-20260121@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260121
+DTEND;VALUE=DATE:20260122
+SUMMARY:競價拍賣：久舜(5547) 投標結束
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：久舜\n證券代號：5547\n發行市場：櫃檯買賣
+ \n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：3\,624\n最低投標價格(元)：17\n最低每標單投標數量(張)：1\n最高投(
+ 得)標數量(張)：520\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：康和\n資料來源：https://www.
+ twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-5547-20260123@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260123
+DTEND;VALUE=DATE:20260124
+SUMMARY:競價拍賣：久舜(5547) 開標日
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：久舜\n證券代號：5547\n發行市場：櫃檯買賣
+ \n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：3\,624\n最低投標價格(元)：17\n最低每標單投標數量(張)：1\n最高投(
+ 得)標數量(張)：520\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：康和\n資料來源：https://www.
+ twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-5547-20260203@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:競價拍賣：久舜(5547) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：久舜\n證券代號：5547\n發行市場：櫃檯買賣
+ \n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：3\,624\n最低投標價格(元)：17\n最低每標單投標數量(張)：1\n最高投(
+ 得)標數量(張)：520\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：康和\n資料來源：https://www.
+ twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-66722-20260119@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:競價拍賣：騰輝電子二KY(66722) 投標開始
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：騰輝電子二KY\n證券代號：66722\n發行市
+ 場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投標價格(元)：100\n最低每標單投標數
+ 量(張)：1\n最高投(得)標數量(張)：445\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：永豐金\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-66722-20260121@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260121
+DTEND;VALUE=DATE:20260122
+SUMMARY:競價拍賣：騰輝電子二KY(66722) 投標結束
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：騰輝電子二KY\n證券代號：66722\n發行市
+ 場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投標價格(元)：100\n最低每標單投標數
+ 量(張)：1\n最高投(得)標數量(張)：445\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：永豐金\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-66722-20260123@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260123
+DTEND;VALUE=DATE:20260124
+SUMMARY:競價拍賣：騰輝電子二KY(66722) 開標日
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：騰輝電子二KY\n證券代號：66722\n發行市
+ 場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投標價格(元)：100\n最低每標單投標數
+ 量(張)：1\n最高投(得)標數量(張)：445\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：永豐金\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-66722-20260203@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:競價拍賣：騰輝電子二KY(66722) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：騰輝電子二KY\n證券代號：66722\n發行市
+ 場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投標價格(元)：100\n最低每標單投標數
+ 量(張)：1\n最高投(得)標數量(張)：445\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：永豐金\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-82103-20260119@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:競價拍賣：勤誠三(82103) 投標開始
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：勤誠三\n證券代號：82103\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：630\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-82103-20260121@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260121
+DTEND;VALUE=DATE:20260122
+SUMMARY:競價拍賣：勤誠三(82103) 投標結束
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：勤誠三\n證券代號：82103\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：630\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-82103-20260123@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260123
+DTEND;VALUE=DATE:20260124
+SUMMARY:競價拍賣：勤誠三(82103) 開標日
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：勤誠三\n證券代號：82103\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：630\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-82103-20260203@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:競價拍賣：勤誠三(82103) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/19 ~ 2026/01/21\n\n證券名稱：勤誠三\n證券代號：82103\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：630\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-6934-20260116@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:競價拍賣：心誠鎂(6934) 投標開始
+DESCRIPTION:投標期間：2026/01/16 ~ 2026/01/20\n\n證券名稱：心誠鎂\n證券代號：6934\n發行市場：集中交
+ 易市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：2\,215\n最低投標價格(元)：40\n最低每標單投標數量(張)：1\n最
+ 高投(得)標數量(張)：296\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https://w
+ ww.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-6934-20260120@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260121
+SUMMARY:競價拍賣：心誠鎂(6934) 投標結束
+DESCRIPTION:投標期間：2026/01/16 ~ 2026/01/20\n\n證券名稱：心誠鎂\n證券代號：6934\n發行市場：集中交
+ 易市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：2\,215\n最低投標價格(元)：40\n最低每標單投標數量(張)：1\n最
+ 高投(得)標數量(張)：296\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https://w
+ ww.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-6934-20260122@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:競價拍賣：心誠鎂(6934) 開標日
+DESCRIPTION:投標期間：2026/01/16 ~ 2026/01/20\n\n證券名稱：心誠鎂\n證券代號：6934\n發行市場：集中交
+ 易市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：2\,215\n最低投標價格(元)：40\n最低每標單投標數量(張)：1\n最
+ 高投(得)標數量(張)：296\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https://w
+ ww.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-6934-20260202@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+SUMMARY:競價拍賣：心誠鎂(6934) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/16 ~ 2026/01/20\n\n證券名稱：心誠鎂\n證券代號：6934\n發行市場：集中交
+ 易市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：2\,215\n最低投標價格(元)：40\n最低每標單投標數量(張)：1\n最
+ 高投(得)標數量(張)：296\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https://w
+ ww.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-6907-20260114@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+SUMMARY:競價拍賣：雅特力-KY(6907) 投標開始
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：雅特力-KY\n證券代號：6907\n發行市場：
+ 櫃檯買賣\n發行性質：第一上櫃初上櫃\n競拍方式：美國標\n競拍數量(張)：7\,919\n最低投標價格(元)：24\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：990\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：宏遠\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-6907-20260116@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:競價拍賣：雅特力-KY(6907) 投標結束
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：雅特力-KY\n證券代號：6907\n發行市場：
+ 櫃檯買賣\n發行性質：第一上櫃初上櫃\n競拍方式：美國標\n競拍數量(張)：7\,919\n最低投標價格(元)：24\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：990\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：宏遠\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-6907-20260120@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260121
+SUMMARY:競價拍賣：雅特力-KY(6907) 開標日
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：雅特力-KY\n證券代號：6907\n發行市場：
+ 櫃檯買賣\n發行性質：第一上櫃初上櫃\n競拍方式：美國標\n競拍數量(張)：7\,919\n最低投標價格(元)：24\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：990\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：宏遠\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-6907-20260129@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260129
+DTEND;VALUE=DATE:20260130
+SUMMARY:競價拍賣：雅特力-KY(6907) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：雅特力-KY\n證券代號：6907\n發行市場：
+ 櫃檯買賣\n發行性質：第一上櫃初上櫃\n競拍方式：美國標\n競拍數量(張)：7\,919\n最低投標價格(元)：24\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：990\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：宏遠\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-61011-20260114@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+SUMMARY:競價拍賣：寬魚一(61011) 投標開始
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：寬魚一\n證券代號：61011\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：1\,275\n最低投標價格(元)：100.5\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：127\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-61011-20260116@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:競價拍賣：寬魚一(61011) 投標結束
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：寬魚一\n證券代號：61011\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：1\,275\n最低投標價格(元)：100.5\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：127\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-61011-20260120@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260121
+SUMMARY:競價拍賣：寬魚一(61011) 開標日
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：寬魚一\n證券代號：61011\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：1\,275\n最低投標價格(元)：100.5\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：127\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-61011-20260129@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260129
+DTEND;VALUE=DATE:20260130
+SUMMARY:競價拍賣：寬魚一(61011) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：寬魚一\n證券代號：61011\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：1\,275\n最低投標價格(元)：100.5\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：127\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-4590-20260114@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+SUMMARY:競價拍賣：富田(4590) 投標開始
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：富田\n證券代號：4590\n發行市場：創新板\
+ n發行性質：創新板初上市\n競拍方式：美國標\n競拍數量(張)：2\,975\n最低投標價格(元)：54.05\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：306\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：中國信託\n資料來源：https
+ ://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-4590-20260116@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:競價拍賣：富田(4590) 投標結束
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：富田\n證券代號：4590\n發行市場：創新板\
+ n發行性質：創新板初上市\n競拍方式：美國標\n競拍數量(張)：2\,975\n最低投標價格(元)：54.05\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：306\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：中國信託\n資料來源：https
+ ://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-4590-20260120@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260121
+SUMMARY:競價拍賣：富田(4590) 開標日
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：富田\n證券代號：4590\n發行市場：創新板\
+ n發行性質：創新板初上市\n競拍方式：美國標\n競拍數量(張)：2\,975\n最低投標價格(元)：54.05\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：306\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：中國信託\n資料來源：https
+ ://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-4590-20260129@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260129
+DTEND;VALUE=DATE:20260130
+SUMMARY:競價拍賣：富田(4590) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/14 ~ 2026/01/16\n\n證券名稱：富田\n證券代號：4590\n發行市場：創新板\
+ n發行性質：創新板初上市\n競拍方式：美國標\n競拍數量(張)：2\,975\n最低投標價格(元)：54.05\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：306\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：中國信託\n資料來源：https
+ ://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-7792-20260113@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260114
+SUMMARY:競價拍賣：安葆(7792) 投標開始
+DESCRIPTION:投標期間：2026/01/13 ~ 2026/01/15\n\n證券名稱：安葆\n證券代號：7792\n發行市場：櫃檯買賣
+ \n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：2\,873\n最低投標價格(元)：113.39\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：395\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https://
+ www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-7792-20260115@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+SUMMARY:競價拍賣：安葆(7792) 投標結束
+DESCRIPTION:投標期間：2026/01/13 ~ 2026/01/15\n\n證券名稱：安葆\n證券代號：7792\n發行市場：櫃檯買賣
+ \n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：2\,873\n最低投標價格(元)：113.39\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：395\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https://
+ www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-7792-20260119@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:競價拍賣：安葆(7792) 開標日
+DESCRIPTION:投標期間：2026/01/13 ~ 2026/01/15\n\n證券名稱：安葆\n證券代號：7792\n發行市場：櫃檯買賣
+ \n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：2\,873\n最低投標價格(元)：113.39\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：395\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https://
+ www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-7792-20260128@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260128
+DTEND;VALUE=DATE:20260129
+SUMMARY:競價拍賣：安葆(7792) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/13 ~ 2026/01/15\n\n證券名稱：安葆\n證券代號：7792\n發行市場：櫃檯買賣
+ \n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：2\,873\n最低投標價格(元)：113.39\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：395\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https://
+ www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-24553-20260112@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+SUMMARY:競價拍賣：全新三(24553) 投標開始
+DESCRIPTION:投標期間：2026/01/12 ~ 2026/01/14\n\n證券名稱：全新三\n證券代號：24553\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：4\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：450\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：群益金鼎\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-24553-20260114@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+SUMMARY:競價拍賣：全新三(24553) 投標結束
+DESCRIPTION:投標期間：2026/01/12 ~ 2026/01/14\n\n證券名稱：全新三\n證券代號：24553\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：4\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：450\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：群益金鼎\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-24553-20260116@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:競價拍賣：全新三(24553) 開標日
+DESCRIPTION:投標期間：2026/01/12 ~ 2026/01/14\n\n證券名稱：全新三\n證券代號：24553\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：4\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：450\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：群益金鼎\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-24553-20260127@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260127
+DTEND;VALUE=DATE:20260128
+SUMMARY:競價拍賣：全新三(24553) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/12 ~ 2026/01/14\n\n證券名稱：全新三\n證券代號：24553\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：4\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：450\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：群益金鼎\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-6961-20260107@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:競價拍賣：旅天下(6961) 投標開始
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：旅天下\n證券代號：6961\n發行市場：櫃檯買
+ 賣\n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：2\,176\n最低投標價格(元)：46.61\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：282\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：福邦\n資料來源：https://
+ www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-6961-20260109@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:競價拍賣：旅天下(6961) 投標結束
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：旅天下\n證券代號：6961\n發行市場：櫃檯買
+ 賣\n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：2\,176\n最低投標價格(元)：46.61\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：282\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：福邦\n資料來源：https://
+ www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-6961-20260113@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260114
+SUMMARY:競價拍賣：旅天下(6961) 開標日
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：旅天下\n證券代號：6961\n發行市場：櫃檯買
+ 賣\n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：2\,176\n最低投標價格(元)：46.61\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：282\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：福邦\n資料來源：https://
+ www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-6961-20260122@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:競價拍賣：旅天下(6961) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：旅天下\n證券代號：6961\n發行市場：櫃檯買
+ 賣\n發行性質：初上櫃\n競拍方式：美國標\n競拍數量(張)：2\,176\n最低投標價格(元)：46.61\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：282\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：福邦\n資料來源：https://
+ www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-1623-20260107@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:競價拍賣：大東電(1623) 投標開始
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：大東電\n證券代號：1623\n發行市場：集中交
+ 易市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：4\,320\n最低投標價格(元)：150.4\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：555\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：國泰\n資料來源：https:
+ //www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-1623-20260109@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:競價拍賣：大東電(1623) 投標結束
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：大東電\n證券代號：1623\n發行市場：集中交
+ 易市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：4\,320\n最低投標價格(元)：150.4\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：555\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：國泰\n資料來源：https:
+ //www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-1623-20260113@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260114
+SUMMARY:競價拍賣：大東電(1623) 開標日
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：大東電\n證券代號：1623\n發行市場：集中交
+ 易市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：4\,320\n最低投標價格(元)：150.4\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：555\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：國泰\n資料來源：https:
+ //www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-1623-20260122@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:競價拍賣：大東電(1623) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：大東電\n證券代號：1623\n發行市場：集中交
+ 易市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：4\,320\n最低投標價格(元)：150.4\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：555\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：國泰\n資料來源：https:
+ //www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-24673-20260107@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:競價拍賣：志聖三(24673) 投標開始
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：志聖三\n證券代號：24673\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：850\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-24673-20260109@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:競價拍賣：志聖三(24673) 投標結束
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：志聖三\n證券代號：24673\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：850\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-24673-20260113@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260114
+SUMMARY:競價拍賣：志聖三(24673) 開標日
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：志聖三\n證券代號：24673\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：850\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-24673-20260122@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:競價拍賣：志聖三(24673) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：志聖三\n證券代號：24673\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：850\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-6423-20260107@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:競價拍賣：億而得(6423) 投標開始
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：億而得\n證券代號：6423\n發行市場：櫃檯買
+ 賣\n發行性質：創新板轉列上櫃\n競拍方式：美國標\n競拍數量(張)：720\n最低投標價格(元)：50\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：90\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：兆豐\n資料來源：https://www
+ .twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-6423-20260109@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:競價拍賣：億而得(6423) 投標結束
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：億而得\n證券代號：6423\n發行市場：櫃檯買
+ 賣\n發行性質：創新板轉列上櫃\n競拍方式：美國標\n競拍數量(張)：720\n最低投標價格(元)：50\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：90\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：兆豐\n資料來源：https://www
+ .twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-6423-20260113@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260114
+SUMMARY:競價拍賣：億而得(6423) 開標日
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：億而得\n證券代號：6423\n發行市場：櫃檯買
+ 賣\n發行性質：創新板轉列上櫃\n競拍方式：美國標\n競拍數量(張)：720\n最低投標價格(元)：50\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：90\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：兆豐\n資料來源：https://www
+ .twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-6423-20260122@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:競價拍賣：億而得(6423) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/07 ~ 2026/01/09\n\n證券名稱：億而得\n證券代號：6423\n發行市場：櫃檯買
+ 賣\n發行性質：創新板轉列上櫃\n競拍方式：美國標\n競拍數量(張)：720\n最低投標價格(元)：50\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：90\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：兆豐\n資料來源：https://www
+ .twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-37171-20260106@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+SUMMARY:競價拍賣：聯嘉投控一(37171) 投標開始
+DESCRIPTION:投標期間：2026/01/06 ~ 2026/01/08\n\n證券名稱：聯嘉投控一\n證券代號：37171\n發行市場：
+ 櫃檯買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)：100\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：595\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：國泰\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-37171-20260108@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260108
+DTEND;VALUE=DATE:20260109
+SUMMARY:競價拍賣：聯嘉投控一(37171) 投標結束
+DESCRIPTION:投標期間：2026/01/06 ~ 2026/01/08\n\n證券名稱：聯嘉投控一\n證券代號：37171\n發行市場：
+ 櫃檯買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)：100\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：595\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：國泰\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-37171-20260112@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+SUMMARY:競價拍賣：聯嘉投控一(37171) 開標日
+DESCRIPTION:投標期間：2026/01/06 ~ 2026/01/08\n\n證券名稱：聯嘉投控一\n證券代號：37171\n發行市場：
+ 櫃檯買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)：100\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：595\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：國泰\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-37171-20260121@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260121
+DTEND;VALUE=DATE:20260122
+SUMMARY:競價拍賣：聯嘉投控一(37171) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/06 ~ 2026/01/08\n\n證券名稱：聯嘉投控一\n證券代號：37171\n發行市場：
+ 櫃檯買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)：100\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：595\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：國泰\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-61993-20260105@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+SUMMARY:競價拍賣：天品三(61993) 投標開始
+DESCRIPTION:投標期間：2026/01/05 ~ 2026/01/07\n\n證券名稱：天品三\n證券代號：61993\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：2\,160\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：216\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：群益金鼎\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-61993-20260107@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:競價拍賣：天品三(61993) 投標結束
+DESCRIPTION:投標期間：2026/01/05 ~ 2026/01/07\n\n證券名稱：天品三\n證券代號：61993\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：2\,160\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：216\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：群益金鼎\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-61993-20260109@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:競價拍賣：天品三(61993) 開標日
+DESCRIPTION:投標期間：2026/01/05 ~ 2026/01/07\n\n證券名稱：天品三\n證券代號：61993\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：2\,160\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：216\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：群益金鼎\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-61993-20260120@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260121
+SUMMARY:競價拍賣：天品三(61993) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/05 ~ 2026/01/07\n\n證券名稱：天品三\n證券代號：61993\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：2\,160\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：216\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：群益金鼎\n資料來源：ht
+ tps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-80212-20260105@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+SUMMARY:競價拍賣：尖點二(80212) 投標開始
+DESCRIPTION:投標期間：2026/01/05 ~ 2026/01/07\n\n證券名稱：尖點二\n證券代號：80212\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：6\,650\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：665\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：福邦\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-80212-20260107@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:競價拍賣：尖點二(80212) 投標結束
+DESCRIPTION:投標期間：2026/01/05 ~ 2026/01/07\n\n證券名稱：尖點二\n證券代號：80212\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：6\,650\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：665\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：福邦\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-80212-20260109@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:競價拍賣：尖點二(80212) 開標日
+DESCRIPTION:投標期間：2026/01/05 ~ 2026/01/07\n\n證券名稱：尖點二\n證券代號：80212\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：6\,650\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：665\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：福邦\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-80212-20260120@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260120
+DTEND;VALUE=DATE:20260121
+SUMMARY:競價拍賣：尖點二(80212) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2026/01/05 ~ 2026/01/07\n\n證券名稱：尖點二\n證券代號：80212\n發行市場：櫃檯
+ 買賣\n發行性質：無擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：6\,650\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：665\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：福邦\n資料來源：http
+ s://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-6722-20251231@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+SUMMARY:競價拍賣：輝創(6722) 投標開始
+DESCRIPTION:投標期間：2025/12/31 ~ 2026/01/05\n\n證券名稱：輝創\n證券代號：6722\n發行市場：集中交易
+ 市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：7\,072\n最低投標價格(元)：33.06\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：914\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：https:/
+ /www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-6722-20260105@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+SUMMARY:競價拍賣：輝創(6722) 投標結束
+DESCRIPTION:投標期間：2025/12/31 ~ 2026/01/05\n\n證券名稱：輝創\n證券代號：6722\n發行市場：集中交易
+ 市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：7\,072\n最低投標價格(元)：33.06\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：914\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：https:/
+ /www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-6722-20260107@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:競價拍賣：輝創(6722) 開標日
+DESCRIPTION:投標期間：2025/12/31 ~ 2026/01/05\n\n證券名稱：輝創\n證券代號：6722\n發行市場：集中交易
+ 市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：7\,072\n最低投標價格(元)：33.06\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：914\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：https:/
+ /www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-6722-20260116@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:競價拍賣：輝創(6722) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2025/12/31 ~ 2026/01/05\n\n證券名稱：輝創\n證券代號：6722\n發行市場：集中交易
+ 市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：7\,072\n最低投標價格(元)：33.06\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：914\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：富邦\n資料來源：https:/
+ /www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-7795-20251231@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+SUMMARY:競價拍賣：長廣(7795) 投標開始
+DESCRIPTION:投標期間：2025/12/31 ~ 2026/01/05\n\n證券名稱：長廣\n證券代號：7795\n發行市場：集中交易
+ 市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：5\,760\n最低投標價格(元)：105.93\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：828\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https:
+ //www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-7795-20260105@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+SUMMARY:競價拍賣：長廣(7795) 投標結束
+DESCRIPTION:投標期間：2025/12/31 ~ 2026/01/05\n\n證券名稱：長廣\n證券代號：7795\n發行市場：集中交易
+ 市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：5\,760\n最低投標價格(元)：105.93\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：828\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https:
+ //www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-7795-20260107@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:競價拍賣：長廣(7795) 開標日
+DESCRIPTION:投標期間：2025/12/31 ~ 2026/01/05\n\n證券名稱：長廣\n證券代號：7795\n發行市場：集中交易
+ 市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：5\,760\n最低投標價格(元)：105.93\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：828\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https:
+ //www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-7795-20260116@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:競價拍賣：長廣(7795) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2025/12/31 ~ 2026/01/05\n\n證券名稱：長廣\n證券代號：7795\n發行市場：集中交易
+ 市場\n發行性質：初上市\n競拍方式：美國標\n競拍數量(張)：5\,760\n最低投標價格(元)：105.93\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：828\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：元大\n資料來源：https:
+ //www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDSTART-49674-20251230@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20251230
+DTEND;VALUE=DATE:20251231
+SUMMARY:競價拍賣：十銓四(49674) 投標開始
+DESCRIPTION:投標期間：2025/12/30 ~ 2026/01/02\n\n證券名稱：十銓四\n證券代號：49674\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：17\,361\n最低投標價格(元)：102\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：1\,736\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：永豐金\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-BIDEND-49674-20260102@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260102
+DTEND;VALUE=DATE:20260103
+SUMMARY:競價拍賣：十銓四(49674) 投標結束
+DESCRIPTION:投標期間：2025/12/30 ~ 2026/01/02\n\n證券名稱：十銓四\n證券代號：49674\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：17\,361\n最低投標價格(元)：102\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：1\,736\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：永豐金\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-OPEN-49674-20260106@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+SUMMARY:競價拍賣：十銓四(49674) 開標日
+DESCRIPTION:投標期間：2025/12/30 ~ 2026/01/02\n\n證券名稱：十銓四\n證券代號：49674\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：17\,361\n最低投標價格(元)：102\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：1\,736\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：永豐金\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:twse-auction-ALLOT-49674-20260115@twse.com.tw
+DTSTAMP:20260225T153451Z
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+SUMMARY:競價拍賣：十銓四(49674) 撥券/上市(櫃)日
+DESCRIPTION:投標期間：2025/12/30 ~ 2026/01/02\n\n證券名稱：十銓四\n證券代號：49674\n發行市場：櫃檯
+ 買賣\n發行性質：有擔保轉換公司債\n競拍方式：美國標\n競拍數量(張)：17\,361\n最低投標價格(元)：102\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：1\,736\n保證金成數(%)：50\n每一投標單投標處理費(元)：400\n主辦券商：永豐金\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
