@@ -117,6 +117,18 @@ def stable_uid(source: str) -> str:
     return f"{digest}@twse-auction-calendar"
 
 
+def stable_dtstamp(event: CalendarEvent) -> str:
+    """Create deterministic DTSTAMP so unchanged events keep identical output."""
+    fingerprint = "|".join(
+        [event.uid, event.summary, event.description, event.event_date.isoformat()]
+    )
+    digest = hashlib.sha1(fingerprint.encode("utf-8")).hexdigest()
+    # Map hash to a fixed 50-year UTC window to keep DTSTAMP valid and stable.
+    seconds = int(digest[:10], 16) % (50 * 365 * 24 * 60 * 60)
+    stamp = datetime(2000, 1, 1, tzinfo=timezone.utc) + timedelta(seconds=seconds)
+    return stamp.strftime("%Y%m%dT%H%M%SZ")
+
+
 def value_or_dash(row: dict[str, str], key: str) -> str:
     value = row.get(key, "").strip()
     return value if value else "-"
@@ -204,11 +216,10 @@ def render_ics(events: Iterable[CalendarEvent]) -> str:
     add_line("X-WR-CALDESC:由 TWSE 競價拍賣公告自動產生")
     add_line("X-WR-TIMEZONE:Asia/Taipei")
 
-    dtstamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     for event in sorted(events, key=lambda e: (e.event_date, e.summary, e.uid)):
         add_line("BEGIN:VEVENT")
         add_line(f"UID:{event.uid}")
-        add_line(f"DTSTAMP:{dtstamp}")
+        add_line(f"DTSTAMP:{stable_dtstamp(event)}")
         add_line(f"DTSTART;VALUE=DATE:{event.event_date.strftime('%Y%m%d')}")
         add_line(
             "DTEND;VALUE=DATE:"
