@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TWSE 競價拍賣行事曆</title>
+  <style>
+    :root {
+      --primary: #1a56db;
+      --primary-dark: #1040a0;
+      --accent: #f59e0b;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --success: #10b981;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, #3b82f6 100%);
+      color: white;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: -2rem auto 2rem;
+      padding: 0 1.5rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .card h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .subscribe-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--primary);
+      color: white;
+      padding: 0.85rem 1.75rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.05rem;
+      font-weight: 600;
+      transition: background 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .subscribe-btn:hover { background: var(--primary-dark); }
+
+    .subscribe-section {
+      text-align: center;
+      padding: 2.5rem 2rem;
+    }
+
+    .subscribe-section p {
+      margin-top: 1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .url-box {
+      background: #f1f5f9;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      word-break: break-all;
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: 0.85rem;
+    }
+
+    .url-box code { flex: 1; }
+
+    .copy-btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+
+    .copy-btn:hover { background: var(--primary-dark); }
+
+    .steps { list-style: none; counter-reset: step; }
+
+    .steps li {
+      counter-increment: step;
+      padding: 0.75rem 0;
+      padding-left: 2.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .steps li:last-child { border-bottom: none; }
+
+    .steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: 0.75rem;
+      width: 1.75rem;
+      height: 1.75rem;
+      background: var(--primary);
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .steps li strong { display: block; margin-bottom: 0.25rem; }
+
+    .legend {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .legend-item {
+      text-align: center;
+      padding: 1rem 0.5rem;
+      border-radius: 8px;
+      background: #f8fafc;
+    }
+
+    .legend-item .icon { font-size: 1.5rem; margin-bottom: 0.25rem; }
+    .legend-item .label { font-size: 0.85rem; color: var(--muted); }
+    .legend-item .desc { font-size: 0.8rem; margin-top: 0.25rem; }
+
+    .badge {
+      display: inline-block;
+      background: var(--success);
+      color: white;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    footer a { color: var(--primary); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 1.5rem; }
+      .legend { grid-template-columns: 1fr; }
+      .card { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>📈 TWSE 競價拍賣行事曆</h1>
+    <p>自動追蹤臺灣證券交易所競價拍賣時程，一鍵訂閱至 Google / Apple / Outlook 行事曆</p>
+  </div>
+
+  <div class="container">
+
+    <div class="card subscribe-section">
+      <span class="badge">每日自動更新</span>
+      <h2 style="justify-content:center; margin-top:0.75rem;">訂閱行事曆</h2>
+      <a class="subscribe-btn" id="webcalBtn" href="#">
+        📅 一鍵訂閱行事曆
+      </a>
+      <p>點擊後會自動開啟您的行事曆 App 進行訂閱</p>
+
+      <div class="url-box">
+        <code id="icsUrl">載入中...</code>
+        <button class="copy-btn" onclick="copyUrl()">複製</button>
+      </div>
+      <p style="font-size:0.8rem;">也可手動將上方網址加入行事曆 App 的「網路行事曆訂閱」</p>
+    </div>
+
+    <div class="card">
+      <h2>📖 事件圖示說明</h2>
+      <div class="legend">
+        <div class="legend-item">
+          <div class="icon">📋</div>
+          <div class="label">投標期間</div>
+          <div class="desc">可下單投標的日期區間</div>
+        </div>
+        <div class="legend-item">
+          <div class="icon">🔔</div>
+          <div class="label">開標日</div>
+          <div class="desc">公布得標結果</div>
+        </div>
+        <div class="legend-item">
+          <div class="icon">🎯</div>
+          <div class="label">撥券日</div>
+          <div class="desc">上市 / 上櫃日期</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🛠️ 如何訂閱</h2>
+      <ol class="steps">
+        <li>
+          <strong>Google 日曆</strong>
+          開啟 Google Calendar → 左側「其他日曆」旁的 ＋ → 透過網址新增 → 貼上網址
+        </li>
+        <li>
+          <strong>Apple 行事曆 (Mac / iPhone)</strong>
+          點擊上方「一鍵訂閱」按鈕，或在行事曆 App → 檔案 → 新增訂閱行事曆 → 貼上網址
+        </li>
+        <li>
+          <strong>Outlook</strong>
+          開啟 Outlook → 行事曆 → 新增行事曆 → 從網際網路訂閱 → 貼上網址
+        </li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>ℹ️ 關於本行事曆</h2>
+      <ul style="padding-left:1.25rem; color: var(--muted);">
+        <li>資料來源：<a href="https://www.twse.com.tw/zh/announcement/auction.html" target="_blank">臺灣證券交易所 競價拍賣公告</a></li>
+        <li>透過 GitHub Actions 每日自動更新</li>
+        <li>涵蓋前一年、當年、隔年的拍賣資料</li>
+        <li>包含 IPO（初次上市櫃）及可轉債等各類競價拍賣</li>
+        <li>已取消 / 流標的事件會標註【已取消】</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    資料來源：<a href="https://www.twse.com.tw/" target="_blank">臺灣證券交易所</a>
+    ｜ <a href="https://github.com" target="_blank">GitHub 原始碼</a>
+    <br>本行事曆僅供參考，投資決策請以官方公告為準。
+  </footer>
+
+  <script>
+    (function() {
+      var base = window.location.href.replace(/\/index\.html$/, '').replace(/\/$/, '');
+      var httpsUrl = base + '/twse-auction.ics';
+      var webcalUrl = httpsUrl.replace(/^https?:/, 'webcal:');
+
+      document.getElementById('icsUrl').textContent = httpsUrl;
+      document.getElementById('webcalBtn').href = webcalUrl;
+    })();
+
+    function copyUrl() {
+      var url = document.getElementById('icsUrl').textContent;
+      navigator.clipboard.writeText(url).then(function() {
+        var btn = document.querySelector('.copy-btn');
+        btn.textContent = '已複製！';
+        setTimeout(function() { btn.textContent = '複製'; }, 2000);
+      });
+    }
+  </script>
+
+</body>
+</html>
