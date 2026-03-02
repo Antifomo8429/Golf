@@ -52438,6 +52438,41 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:56bc70b7079c876fb967f0ae2c7dda15743cd733@twse-auction-calendar
+DTSTAMP:20080130T214815Z
+DTSTART;VALUE=DATE:20260304
+DTEND;VALUE=DATE:20260305
+SUMMARY:[TWSE競拍] 高端疫苗二(65472) 投標開始
+DESCRIPTION:事件：投標開始\n證券名稱：高端疫苗二\n證券
+ 代號：65472\n發行市場：櫃檯買賣\n發行性質：有擔保轉換
+ 公司債\n競拍方式：美國標\n競拍數量(張)：6\,375\n最低投
+ 標價格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得
+ )標數量(張)：637\n主辦券商：永豐金\n投標開始日：2026/03/
+ 04\n投標結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期
+ ：2026/03/19\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
+ on.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c804985803d990093f3b650db76bb5aa996f54fb@twse-auction-calendar
+DTSTAMP:20340320T051040Z
+DTSTART;VALUE=DATE:20260304
+DTEND;VALUE=DATE:20260305
+SUMMARY:[TWSE競拍] 鴻呈一(69131) 投標開始
+DESCRIPTION:事件：投標開始\n證券名稱：鴻呈一\n證券代號
+ ：69131\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
+ 債\n競拍方式：美國標\n競拍數量(張)：3\,825\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標
+ 結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/1
+ 9\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1e789aa13aa0da41d239e16a88fae5a93414f403@twse-auction-calendar
 DTSTAMP:20491116T214157Z
 DTSTART;VALUE=DATE:20260305
@@ -52455,6 +52490,76 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:a866a3afc6c85a6e37c9eedf7fe1e8233161a0d4@twse-auction-calendar
+DTSTAMP:20340413T154242Z
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260307
+SUMMARY:[TWSE競拍] 高端疫苗二(65472) 投標截止
+DESCRIPTION:事件：投標截止\n證券名稱：高端疫苗二\n證券
+ 代號：65472\n發行市場：櫃檯買賣\n發行性質：有擔保轉換
+ 公司債\n競拍方式：美國標\n競拍數量(張)：6\,375\n最低投
+ 標價格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得
+ )標數量(張)：637\n主辦券商：永豐金\n投標開始日：2026/03/
+ 04\n投標結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期
+ ：2026/03/19\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
+ on.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8f9881f6bf1bedbc13da61ce8a48818f0f14c16f@twse-auction-calendar
+DTSTAMP:20000830T185340Z
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260307
+SUMMARY:[TWSE競拍] 鴻呈一(69131) 投標截止
+DESCRIPTION:事件：投標截止\n證券名稱：鴻呈一\n證券代號
+ ：69131\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
+ 債\n競拍方式：美國標\n競拍數量(張)：3\,825\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標
+ 結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/1
+ 9\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:90141f9e415cdb2a9bd9d9f0f968efc026e3f587@twse-auction-calendar
+DTSTAMP:20340313T015058Z
+DTSTART;VALUE=DATE:20260310
+DTEND;VALUE=DATE:20260311
+SUMMARY:[TWSE競拍] 高端疫苗二(65472) 開標
+DESCRIPTION:事件：開標\n證券名稱：高端疫苗二\n證券代號
+ ：65472\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
+ 債\n競拍方式：美國標\n競拍數量(張)：6\,375\n最低投標價
+ 格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得)標
+ 數量(張)：637\n主辦券商：永豐金\n投標開始日：2026/03/04\n
+ 投標結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期：202
+ 6/03/19\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
+ l
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:574df28dafa64f41ae67146268c606bb1b6a62a0@twse-auction-calendar
+DTSTAMP:20030111T040331Z
+DTSTART;VALUE=DATE:20260310
+DTEND;VALUE=DATE:20260311
+SUMMARY:[TWSE競拍] 鴻呈一(69131) 開標
+DESCRIPTION:事件：開標\n證券名稱：鴻呈一\n證券代號：69131
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
+ 拍方式：美國標\n競拍數量(張)：3\,825\n最低投標價格(元)
+ ：102\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
+ ：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標結束
+ 日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/19\n資
+ 料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:dd9fc9330719857481abd0cfba55594c4b11657f@twse-auction-calendar
 DTSTAMP:20030906T013019Z
 DTSTART;VALUE=DATE:20260316
@@ -52467,6 +52572,41 @@ DESCRIPTION:事件：撥券/掛牌\n證券名稱：雙鴻七\n證券代號
  量(張)：1\,700\n主辦券商：凱基\n投標開始日：2026/02/26\n投
  標結束日：2026/03/03\n開標日期：2026/03/05\n撥券日期：2026/0
  3/16\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cccf241234bdbb93caa7ad052abd13797cd1a3ee@twse-auction-calendar
+DTSTAMP:20010415T170843Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:[TWSE競拍] 高端疫苗二(65472) 撥券/掛牌
+DESCRIPTION:事件：撥券/掛牌\n證券名稱：高端疫苗二\n證券
+ 代號：65472\n發行市場：櫃檯買賣\n發行性質：有擔保轉換
+ 公司債\n競拍方式：美國標\n競拍數量(張)：6\,375\n最低投
+ 標價格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得
+ )標數量(張)：637\n主辦券商：永豐金\n投標開始日：2026/03/
+ 04\n投標結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期
+ ：2026/03/19\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
+ on.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:75b83f881062cb3aa13cad70c764fd28c235b9b2@twse-auction-calendar
+DTSTAMP:20450508T020053Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:[TWSE競拍] 鴻呈一(69131) 撥券/掛牌
+DESCRIPTION:事件：撥券/掛牌\n證券名稱：鴻呈一\n證券代號
+ ：69131\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
+ 債\n競拍方式：美國標\n競拍數量(張)：3\,825\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標
+ 結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/1
+ 9\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
