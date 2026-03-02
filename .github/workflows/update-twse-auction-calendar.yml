@@ -20,18 +20,22 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check for changes and notify Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python3 scripts/notify_discord.py
+
       - name: Generate iCalendar file
         run: python3 scripts/generate_twse_auction_calendar.py --output calendar/twse-auction.ics
 
       - name: Commit and push if changed
         run: |
-          if git diff --quiet -- calendar/twse-auction.ics; then
-            echo "No calendar changes."
-            exit 0
-          fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add calendar/twse-auction.ics
-          git commit -m "chore: auto-update TWSE auction calendar"
-          git push
+          git add calendar/twse-auction.ics calendar/snapshot.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update TWSE auction calendar"
+            git push
+          fi
