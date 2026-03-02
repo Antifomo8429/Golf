@@ -1,68 +1,78 @@
-# TWSE 競價拍賣行事曆
+# TWSE 競價拍賣公告自動更新行事曆
 
-自動追蹤臺灣證券交易所（TWSE）競價拍賣公告，產生可訂閱的 ICS 行事曆檔案。
+這個專案會把臺灣證交所「競價拍賣公告」自動轉成可訂閱的行事曆（`.ics` 檔）。
 
-## 功能
+資料來源頁面：
+<https://www.twse.com.tw/zh/announcement/auction.html>
 
-- 每日自動從 [TWSE 競價拍賣公告](https://www.twse.com.tw/zh/announcement/auction.html) 抓取最新資料
-- 產生標準 ICS 行事曆檔案，可匯入 Google Calendar / Apple 行事曆 / Outlook
-- 透過 GitHub Pages 提供行事曆訂閱網址，訂閱後自動同步更新
-- 涵蓋前一年、當年及隔年的拍賣資料
-- 資料有任何變動時，自動發送 Discord 通知（新增、更新、移除）
+---
 
-## 行事曆事件類型
+## 你會得到什麼
 
-每筆競價拍賣會產生三個行事曆事件：
+- 一個可訂閱的日曆檔：`calendar/twse-auction.ics`
+- 每天自動更新（GitHub Actions 排程）
+- 事件內容包含：
+  - 投標開始日
+  - 投標結束日
+  - 開標日期
+  - 撥券/掛牌日期
 
-| 圖示 | 事件類型 | 說明 |
-|------|---------|------|
-| 📋 | 投標期間 | 可進行投標的日期區間 |
-| 🔔 | 開標日 | 公布得標結果的日期 |
-| 🎯 | 撥券日 | 上市或上櫃日期 |
+---
 
-已取消或流標的事件會在標題標註【已取消】。
+## 專案內的重要檔案（白話解釋）
 
-## 訂閱方式
+- `scripts/generate_twse_auction_calendar.py`  
+  抓取證交所資料，轉成 `.ics` 行事曆檔。
 
-啟用 GitHub Pages 後，可透過以下方式訂閱：
+- `.github/workflows/update-twse-auction-calendar.yml`  
+  GitHub 的自動排程設定。每天會自動執行上面的 Python 程式。
 
-- **Google Calendar**：其他日曆 → 透過網址新增 → 貼上 ICS 網址
-- **Apple 行事曆**：檔案 → 新增訂閱行事曆 → 貼上 ICS 網址
-- **Outlook**：行事曆 → 新增行事曆 → 從網際網路訂閱 → 貼上 ICS 網址
+- `calendar/twse-auction.ics`  
+  最終可訂閱的日曆檔。
 
-## 手動執行
+---
+
+## 如何手動產生日曆（一次）
+
+> 如果你只想先試一次，可以在專案根目錄執行：
 
 ```bash
-pip install -r requirements.txt
-python generate_calendar.py
+python3 scripts/generate_twse_auction_calendar.py --output calendar/twse-auction.ics
 ```
 
-產生的 ICS 檔案位於 `docs/twse-auction.ics`。
+---
 
-## 自動更新
+## 如何取得「可訂閱」連結
 
-透過 GitHub Actions 每日台灣時間早上 8:00 自動執行，並部署至 GitHub Pages。
-也可手動觸發 workflow（Actions → Update TWSE Auction Calendar → Run workflow）。
+當這個專案放在 GitHub，且 `calendar/twse-auction.ics` 已存在時，可用下列格式：
 
-## Discord 通知設定
+```text
+https://raw.githubusercontent.com/<你的GitHub帳號>/<你的Repo名稱>/main/calendar/twse-auction.ics
+```
 
-當拍賣資料有任何欄位變動（新增拍賣、欄位更新、移除拍賣）時，會自動發送 Discord 通知。
+把上面 `<...>` 換成你的實際資訊即可。
 
-設定方式：
+---
 
-1. 在 Discord 頻道設定中，建立一個 **Webhook**，取得 Webhook URL
-2. 到 GitHub 的 **Settings → Secrets and variables → Actions**
-3. 新增一個 Secret，名稱為 `DISCORD_WEBHOOK_URL`，值為步驟 1 取得的 URL
+## 匯入到常見行事曆
 
-通知範例：
-- 🆕 **新增拍賣**：顯示證券名稱、代號、投標期間、開標日等完整資訊
-- 📝 **資料更新**：顯示哪些欄位從什麼值變成什麼值
-- ❌ **已移除**：顯示被移除的拍賣資訊
+### Google 日曆
+1. 打開 Google Calendar
+2. 左側「其他日曆」旁邊按 `+`
+3. 選「透過網址新增」
+4. 貼上 `.ics` 連結
+5. 確認新增
 
-## 資料來源
+### Apple Calendar（macOS / iOS）
+1. 開啟 Calendar
+2. 選「新增訂閱行事曆」
+3. 貼上 `.ics` 連結
+4. 設定更新頻率（建議每天）
 
-- [臺灣證券交易所 競價拍賣公告](https://www.twse.com.tw/zh/announcement/auction.html)
+---
 
-## 免責聲明
+## 注意事項
 
-本行事曆僅供參考，投資決策請以官方公告為準。
+- 證交所公告內容若異動，行事曆會在排程後自動更新。
+- 日曆平台本身（Google/Apple）可能有自己的快取時間，通常不會立刻反映。
+- 資料以證交所公告為準。
