@@ -52473,6 +52473,24 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:75d82f94e97e1d40ed3f97ad670b1b99ea730bab@twse-auction-calendar
+DTSTAMP:20450223T233905Z
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+SUMMARY:[TWSE競拍] 聯上六(41136) 投標開始
+DESCRIPTION:事件：投標開始\n證券名稱：聯上六\n證券代號
+ ：41136\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
+ 債\n競拍方式：美國標\n競拍數量(張)：1\,810\n最低投標價
+ 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：181\n主辦券商：合作金庫證券\n投標開始日：2026/0
+ 3/05\n投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期
+ ：2026/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
+ on.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1e789aa13aa0da41d239e16a88fae5a93414f403@twse-auction-calendar
 DTSTAMP:20491116T214157Z
 DTSTART;VALUE=DATE:20260305
@@ -52525,6 +52543,24 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fdeca8692e38bb0d8b3583d0a029734958be5dae@twse-auction-calendar
+DTSTAMP:20420617T230551Z
+DTSTART;VALUE=DATE:20260309
+DTEND;VALUE=DATE:20260310
+SUMMARY:[TWSE競拍] 聯上六(41136) 投標截止
+DESCRIPTION:事件：投標截止\n證券名稱：聯上六\n證券代號
+ ：41136\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
+ 債\n競拍方式：美國標\n競拍數量(張)：1\,810\n最低投標價
+ 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：181\n主辦券商：合作金庫證券\n投標開始日：2026/0
+ 3/05\n投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期
+ ：2026/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
+ on.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:90141f9e415cdb2a9bd9d9f0f968efc026e3f587@twse-auction-calendar
 DTSTAMP:20340313T015058Z
 DTSTART;VALUE=DATE:20260310
@@ -52555,6 +52591,24 @@ DESCRIPTION:事件：開標\n證券名稱：鴻呈一\n證券代號：69131
  ：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標結束
  日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/19\n資
  料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:53a2678977da440a7e0b36539cf05d9272c21876@twse-auction-calendar
+DTSTAMP:20381009T110126Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+SUMMARY:[TWSE競拍] 聯上六(41136) 開標
+DESCRIPTION:事件：開標\n證券名稱：聯上六\n證券代號：41136
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
+ 拍方式：美國標\n競拍數量(張)：1\,810\n最低投標價格(元)
+ ：100\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
+ ：181\n主辦券商：合作金庫證券\n投標開始日：2026/03/05\n
+ 投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期：202
+ 6/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
+ l
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52607,6 +52661,24 @@ DESCRIPTION:事件：撥券/掛牌\n證券名稱：鴻呈一\n證券代號
  量(張)：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標
  結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/1
  9\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bc805864f2bc36869a47e8031abea506ad5c8d2b@twse-auction-calendar
+DTSTAMP:20020407T093740Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:[TWSE競拍] 聯上六(41136) 撥券/掛牌
+DESCRIPTION:事件：撥券/掛牌\n證券名稱：聯上六\n證券代號
+ ：41136\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
+ 債\n競拍方式：美國標\n競拍數量(張)：1\,810\n最低投標價
+ 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：181\n主辦券商：合作金庫證券\n投標開始日：2026/0
+ 3/05\n投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期
+ ：2026/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
+ on.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
