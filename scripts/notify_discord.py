@@ -19,8 +19,9 @@ from urllib.request import Request, urlopen
 API_BASE = "https://www.twse.com.tw/rwd/zh/announcement"
 SNAPSHOT_PATH = Path("calendar/snapshot.json")
 
+IGNORE_FIELDS = {"序號"}
+
 FIELD_LABELS = {
-    "序號": "序號",
     "開標日期": "開標日期",
     "證券名稱": "證券名稱",
     "證券代號": "證券代號",
@@ -130,6 +131,8 @@ def diff_data(
         old_row, new_row = old_map[k], new_map[k]
         diffs = []
         for field in sorted(set(list(old_row.keys()) + list(new_row.keys()))):
+            if field in IGNORE_FIELDS:
+                continue
             old_val = old_row.get(field, "").strip()
             new_val = new_row.get(field, "").strip()
             if old_val != new_val:
