@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 1 * * *"
-    - cron: "17 1 * * *"   # 台灣時間 09:17
-    - cron: "13 7 * * *"   # 台灣時間 15:13
+    - cron: "02 2 * * *"   # 台灣時間 09:17
+    - cron: "30 7 * * *"   # 台灣時間 15:13
 
 permissions:
   contents: write
