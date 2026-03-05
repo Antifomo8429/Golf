@@ -52543,6 +52543,24 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:3cb4dbf5344772d6d6f73d152ebbf979687b399c@twse-auction-calendar
+DTSTAMP:20490116T110431Z
+DTSTART;VALUE=DATE:20260309
+DTEND;VALUE=DATE:20260310
+SUMMARY:[TWSE競拍] 定穎投控二(37152) 投標開始
+DESCRIPTION:事件：投標開始\n證券名稱：定穎投控二\n證券
+ 代號：37152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
+ 公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投
+ 標價格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)
+ 標數量(張)：850\n主辦券商：凱基\n投標開始日：2026/03/09\n
+ 投標結束日：2026/03/11\n開標日期：2026/03/13\n撥券日期：202
+ 6/03/24\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
+ l
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fdeca8692e38bb0d8b3583d0a029734958be5dae@twse-auction-calendar
 DTSTAMP:20420617T230551Z
 DTSTART;VALUE=DATE:20260309
@@ -52596,6 +52614,24 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:aeec465db7edca021fe9bdfc5f29bdfc8307b5b8@twse-auction-calendar
+DTSTAMP:20080422T151438Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+SUMMARY:[TWSE競拍] 定穎投控二(37152) 投標截止
+DESCRIPTION:事件：投標截止\n證券名稱：定穎投控二\n證券
+ 代號：37152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
+ 公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投
+ 標價格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)
+ 標數量(張)：850\n主辦券商：凱基\n投標開始日：2026/03/09\n
+ 投標結束日：2026/03/11\n開標日期：2026/03/13\n撥券日期：202
+ 6/03/24\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
+ l
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:53a2678977da440a7e0b36539cf05d9272c21876@twse-auction-calendar
 DTSTAMP:20381009T110126Z
 DTSTART;VALUE=DATE:20260311
@@ -52609,6 +52645,23 @@ DESCRIPTION:事件：開標\n證券名稱：聯上六\n證券代號：41136
  投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期：202
  6/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
  l
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da21b0ac406c04c27eab40e85b07aa6c43fd05dd@twse-auction-calendar
+DTSTAMP:20410826T203615Z
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+SUMMARY:[TWSE競拍] 定穎投控二(37152) 開標
+DESCRIPTION:事件：開標\n證券名稱：定穎投控二\n證券代號
+ ：37152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
+ 債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：850\n主辦券商：凱基\n投標開始日：2026/03/09\n投標
+ 結束日：2026/03/11\n開標日期：2026/03/13\n撥券日期：2026/03/2
+ 4\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52679,6 +52732,24 @@ DESCRIPTION:事件：撥券/掛牌\n證券名稱：聯上六\n證券代號
  3/05\n投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期
  ：2026/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
  on.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8eb1958c7bd67a0a40522811f4c31a4416f41257@twse-auction-calendar
+DTSTAMP:20310108T061830Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:[TWSE競拍] 定穎投控二(37152) 撥券/掛牌
+DESCRIPTION:事件：撥券/掛牌\n證券名稱：定穎投控二\n證券
+ 代號：37152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
+ 公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投
+ 標價格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)
+ 標數量(張)：850\n主辦券商：凱基\n投標開始日：2026/03/09\n
+ 投標結束日：2026/03/11\n開標日期：2026/03/13\n撥券日期：202
+ 6/03/24\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
+ l
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
