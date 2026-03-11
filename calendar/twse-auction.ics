@@ -52822,6 +52822,40 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:1f654c6c744775ac216617939de7362e187215b9@twse-auction-calendar
+DTSTAMP:20360113T070821Z
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+SUMMARY:[TWSE競拍] 倍利科(7822) 投標開始
+DESCRIPTION:事件：投標開始\n證券名稱：倍利科\n證券代號
+ ：7822\n發行市場：集中交易市場\n發行性質：初上市\n競
+ 拍方式：美國標\n競拍數量(張)：2\,804\n最低投標價格(元)
+ ：678.26\n最低每標單投標數量(張)：1\n最高投(得)標數量(
+ 張)：350\n主辦券商：凱基\n投標開始日：2026/03/13\n投標結
+ 束日：2026/03/17\n開標日期：2026/03/19\n撥券日期：2026/03/30\n
+ 資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cc6732de90faa9f23b23b9e27c4505a3ce7eeca7@twse-auction-calendar
+DTSTAMP:20110416T051423Z
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+SUMMARY:[TWSE競拍] 公勝保經(6028) 投標開始
+DESCRIPTION:事件：投標開始\n證券名稱：公勝保經\n證券代
+ 號：6028\n發行市場：櫃檯買賣\n發行性質：初上櫃\n競拍
+ 方式：美國標\n競拍數量(張)：2\,040\n最低投標價格(元)：6
+ 2.07\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)：
+ 258\n主辦券商：台新\n投標開始日：2026/03/13\n投標結束日
+ ：2026/03/17\n開標日期：2026/03/19\n撥券日期：2026/03/30\n資料
+ 來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:da21b0ac406c04c27eab40e85b07aa6c43fd05dd@twse-auction-calendar
 DTSTAMP:20410826T203615Z
 DTSTART;VALUE=DATE:20260313
@@ -52936,6 +52970,74 @@ DESCRIPTION:事件：開標\n證券名稱：今皓二\n證券代號：30112
  ：385\n主辦券商：群益金鼎\n投標開始日：2026/03/11\n投標
  結束日：2026/03/13\n開標日期：2026/03/17\n撥券日期：2026/03/2
  6\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5c4d41511668d852aff8f667c3de6e39290be831@twse-auction-calendar
+DTSTAMP:20380107T214636Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:[TWSE競拍] 倍利科(7822) 投標截止
+DESCRIPTION:事件：投標截止\n證券名稱：倍利科\n證券代號
+ ：7822\n發行市場：集中交易市場\n發行性質：初上市\n競
+ 拍方式：美國標\n競拍數量(張)：2\,804\n最低投標價格(元)
+ ：678.26\n最低每標單投標數量(張)：1\n最高投(得)標數量(
+ 張)：350\n主辦券商：凱基\n投標開始日：2026/03/13\n投標結
+ 束日：2026/03/17\n開標日期：2026/03/19\n撥券日期：2026/03/30\n
+ 資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a98294f59c61aa62aa2e03e9a709068f5ad4b50d@twse-auction-calendar
+DTSTAMP:20490507T181105Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:[TWSE競拍] 公勝保經(6028) 投標截止
+DESCRIPTION:事件：投標截止\n證券名稱：公勝保經\n證券代
+ 號：6028\n發行市場：櫃檯買賣\n發行性質：初上櫃\n競拍
+ 方式：美國標\n競拍數量(張)：2\,040\n最低投標價格(元)：6
+ 2.07\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)：
+ 258\n主辦券商：台新\n投標開始日：2026/03/13\n投標結束日
+ ：2026/03/17\n開標日期：2026/03/19\n撥券日期：2026/03/30\n資料
+ 來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:75da261d9513c9fa3d175ecfdd34ff21b7e754a0@twse-auction-calendar
+DTSTAMP:20481028T221337Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:[TWSE競拍] 倍利科(7822) 開標
+DESCRIPTION:事件：開標\n證券名稱：倍利科\n證券代號：7822\
+ n發行市場：集中交易市場\n發行性質：初上市\n競拍方式
+ ：美國標\n競拍數量(張)：2\,804\n最低投標價格(元)：678.26\
+ n最低每標單投標數量(張)：1\n最高投(得)標數量(張)：350\n
+ 主辦券商：凱基\n投標開始日：2026/03/13\n投標結束日：2026
+ /03/17\n開標日期：2026/03/19\n撥券日期：2026/03/30\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:861fded3a7648f1d857bf1ae38f2b12b35faa178@twse-auction-calendar
+DTSTAMP:20170223T081504Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+SUMMARY:[TWSE競拍] 公勝保經(6028) 開標
+DESCRIPTION:事件：開標\n證券名稱：公勝保經\n證券代號：60
+ 28\n發行市場：櫃檯買賣\n發行性質：初上櫃\n競拍方式：
+ 美國標\n競拍數量(張)：2\,040\n最低投標價格(元)：62.07\n最
+ 低每標單投標數量(張)：1\n最高投(得)標數量(張)：258\n主
+ 辦券商：台新\n投標開始日：2026/03/13\n投標結束日：2026/03
+ /17\n開標日期：2026/03/19\n撥券日期：2026/03/30\n資料來源：h
+ ttps://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -53093,6 +53195,40 @@ DESCRIPTION:事件：撥券/掛牌\n證券名稱：今皓二\n證券代號
  投標結束日：2026/03/13\n開標日期：2026/03/17\n撥券日期：202
  6/03/26\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
  l
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6b0b7963f838a4e66daffd91fe335f9762784929@twse-auction-calendar
+DTSTAMP:20431130T002413Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:[TWSE競拍] 倍利科(7822) 撥券/掛牌
+DESCRIPTION:事件：撥券/掛牌\n證券名稱：倍利科\n證券代號
+ ：7822\n發行市場：集中交易市場\n發行性質：初上市\n競
+ 拍方式：美國標\n競拍數量(張)：2\,804\n最低投標價格(元)
+ ：678.26\n最低每標單投標數量(張)：1\n最高投(得)標數量(
+ 張)：350\n主辦券商：凱基\n投標開始日：2026/03/13\n投標結
+ 束日：2026/03/17\n開標日期：2026/03/19\n撥券日期：2026/03/30\n
+ 資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8d76bd3d950611c5bc1ae4544680fa9765546090@twse-auction-calendar
+DTSTAMP:20470116T141148Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:[TWSE競拍] 公勝保經(6028) 撥券/掛牌
+DESCRIPTION:事件：撥券/掛牌\n證券名稱：公勝保經\n證券代
+ 號：6028\n發行市場：櫃檯買賣\n發行性質：初上櫃\n競拍
+ 方式：美國標\n競拍數量(張)：2\,040\n最低投標價格(元)：6
+ 2.07\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)：
+ 258\n主辦券商：台新\n投標開始日：2026/03/13\n投標結束日
+ ：2026/03/17\n開標日期：2026/03/19\n撥券日期：2026/03/30\n資料
+ 來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
