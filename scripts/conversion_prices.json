@@ -1,1 +1,121 @@
-[]
+[
+  {
+    "company": "尖點科技股份有限公司",
+    "bid_start": "2026/01/05",
+    "bid_end": "2026/01/07",
+    "min_price": "100.00",
+    "conversion_price": null
+  },
+  {
+    "company": "天品聯合企業股份有限公司",
+    "bid_start": "2026/01/05",
+    "bid_end": "2026/01/07",
+    "min_price": "100.00",
+    "conversion_price": null
+  },
+  {
+    "company": "聯嘉光電投資控股股份有限公司",
+    "bid_start": "2026/01/06",
+    "bid_end": "2026/01/08",
+    "min_price": "100.00",
+    "conversion_price": null
+  },
+  {
+    "company": "志聖工業股份有限公司",
+    "bid_start": "2026/01/07",
+    "bid_end": "2026/01/09",
+    "min_price": "102.00",
+    "conversion_price": "246.6"
+  },
+  {
+    "company": "全新光電科技股份有限公司",
+    "bid_start": "2026/01/12",
+    "bid_end": "2026/01/14",
+    "min_price": "102.00",
+    "conversion_price": null
+  },
+  {
+    "company": "寬魚國際股份有限公司",
+    "bid_start": "2026/01/14",
+    "bid_end": "2026/01/16",
+    "min_price": "100.50",
+    "conversion_price": "36.9"
+  },
+  {
+    "company": "勤誠興業股份有限公司",
+    "bid_start": "2026/01/19",
+    "bid_end": "2026/01/21",
+    "min_price": "102.00",
+    "conversion_price": "0"
+  },
+  {
+    "company": "騰輝電子國際集團股份有限公司-KY",
+    "bid_start": "2026/01/19",
+    "bid_end": "2026/01/21",
+    "min_price": "100.00",
+    "conversion_price": null
+  },
+  {
+    "company": "閎康科技股份有限公司",
+    "bid_start": "2026/01/20",
+    "bid_end": "2026/01/22",
+    "min_price": "102.00",
+    "conversion_price": "0"
+  },
+  {
+    "company": "穎崴科技股份有限公司",
+    "bid_start": "2026/01/21",
+    "bid_end": "2026/01/23",
+    "min_price": "103.00",
+    "conversion_price": null
+  },
+  {
+    "company": "雙鴻科技股份有限公司",
+    "bid_start": "2026/02/26",
+    "bid_end": "2026/03/03",
+    "min_price": "102.00",
+    "conversion_price": null
+  },
+  {
+    "company": "高端疫苗生物製劑股份有限公司",
+    "bid_start": "2026/03/04",
+    "bid_end": "2026/03/06",
+    "min_price": "100.50",
+    "conversion_price": null
+  },
+  {
+    "company": "鴻呈實業股份有限公司",
+    "bid_start": "2026/03/04",
+    "bid_end": "2026/03/06",
+    "min_price": "102.00",
+    "conversion_price": null
+  },
+  {
+    "company": "聯上實業股份有限公司",
+    "bid_start": "2026/03/05",
+    "bid_end": "2026/03/09",
+    "min_price": "100.00",
+    "conversion_price": null
+  },
+  {
+    "company": "定穎投資控股股份有限公司",
+    "bid_start": "2026/03/09",
+    "bid_end": "2026/03/11",
+    "min_price": "102.00",
+    "conversion_price": null
+  },
+  {
+    "company": "逸達生物科技股份有限公司",
+    "bid_start": "2026/03/10",
+    "bid_end": "2026/03/12",
+    "min_price": "100.00",
+    "conversion_price": null
+  },
+  {
+    "company": "今晧實業股份有限公司",
+    "bid_start": "2026/03/11",
+    "bid_end": "2026/03/13",
+    "min_price": "100.00",
+    "conversion_price": null
+  }
+]
