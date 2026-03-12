@@ -149,32 +149,55 @@ def _download_pdf(
     form_data[btn_name + ".y"] = "10"
     form_data["ctl00$cphMain$rblReportType"] = "Auction"
     pdf_bytes = None
+    new_hidden = hidden
+
     try:
+        # Use allow_redirects=False so we can distinguish redirect vs HTML response
         resp = session.post(
             LIST_URL,
             data=form_data,
             headers=HEADERS,
             timeout=30,
-            allow_redirects=True,
+            allow_redirects=False,
         )
-        resp.raise_for_status()
-        content_type = resp.headers.get("Content-Type", "")
-        if resp.content[:4] == b"%PDF" or "pdf" in content_type:
+        print(f"    POST status={resp.status_code} url={resp.url}")
+
+        if resp.status_code in (301, 302, 303, 307, 308):
+            location = resp.headers.get("Location", "")
+            print(f"    重定向至: {location[:120]}")
+            if location:
+                dl = session.get(location, headers={**HEADERS, "Referer": LIST_URL}, timeout=30)
+                print(f"    下載 status={dl.status_code} type={dl.headers.get('Content-Type','')[:60]}")
+                if dl.content[:4] == b"%PDF":
+                    pdf_bytes = dl.content
+                    print(f"    PDF 成功 ({len(pdf_bytes)} bytes)")
+                else:
+                    print(f"    非 PDF，前100字: {dl.text[:100]}")
+            # Re-fetch listing page to get fresh VIEWSTATE
+            try:
+                refresh = session.get(LIST_URL, headers=HEADERS, timeout=30)
+                new_hidden, _ = _parse_page(refresh.text)
+            except Exception:
+                pass
+
+        elif resp.content[:4] == b"%PDF" or "pdf" in resp.headers.get("Content-Type", ""):
             pdf_bytes = resp.content
-        elif "FileDownload" in resp.url:
-            # requests followed a redirect to FileDownload.ashx; content is PDF
-            if resp.content[:4] == b"%PDF":
-                pdf_bytes = resp.content
+            print(f"    直接 PDF ({len(pdf_bytes)} bytes)")
+            try:
+                refresh = session.get(LIST_URL, headers=HEADERS, timeout=30)
+                new_hidden, _ = _parse_page(refresh.text)
+            except Exception:
+                pass
+
+        else:
+            # Server returned HTML — parse for new VIEWSTATE
+            ct = resp.headers.get("Content-Type", "")
+            print(f"    非 PDF 回應: type={ct[:60]}")
+            print(f"    前200字: {resp.text[:200]}")
+            new_hidden, _ = _parse_page(resp.text)
+
     except Exception as exc:
         print(f"    下載失敗: {exc}")
-
-    # Re-fetch the listing page to get a fresh VIEWSTATE for the next request
-    try:
-        refresh = session.get(LIST_URL, headers=HEADERS, timeout=30)
-        refresh.raise_for_status()
-        new_hidden, _ = _parse_page(refresh.text)
-    except Exception:
-        new_hidden = hidden
 
     return pdf_bytes, new_hidden
 
