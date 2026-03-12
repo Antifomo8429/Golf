@@ -232,10 +232,12 @@ def fetch_year(session: requests.Session, roc_year: int) -> list[dict]:
 
         price = _extract_conversion_price(pdf_bytes)
         if not price:
-            # Print a snippet of extracted text to help diagnose pattern mismatches
+            # Print extracted text to diagnose pattern mismatches
             try:
-                snippet = extract_text(io.BytesIO(pdf_bytes))[:300].replace("\n", " ")
-                print(f"    PDF文字片段: {snippet}")
+                full_text = extract_text(io.BytesIO(pdf_bytes))
+                # Print in 200-char chunks so log is readable
+                for i in range(0, min(len(full_text), 800), 200):
+                    print(f"    PDF[{i}:{i+200}]: {full_text[i:i+200].replace(chr(10), '|')}")
             except Exception:
                 pass
         print(f"    -> 轉換價: {price or '未找到'}")
