@@ -55,10 +55,10 @@ HEADERS = {
 }
 
 CONVERSION_PRICE_PATTERNS = [
-    re.compile(r"轉換價格[：:]\s*(?:新台幣|新臺幣)?\s*([\d,]+(?:\.\d+)?)\s*元"),
-    re.compile(r"每股轉換價格[：:]?\s*(?:新台幣|新臺幣)?\s*([\d,]+(?:\.\d+)?)\s*元?"),
-    re.compile(r"轉換價格\s+(?:新台幣|新臺幣)?\s*([\d,]+(?:\.\d+)?)"),
-    re.compile(r"轉換價[：:]\s*(?:新台幣|新臺幣)?\s*([\d,]+(?:\.\d+)?)\s*元?"),
+    re.compile(r"轉換價格[：:]\s*([\d,]+(?:\.\d+)?)\s*元"),
+    re.compile(r"每股轉換價格[：:]?\s*([\d,]+(?:\.\d+)?)\s*元?"),
+    re.compile(r"轉換價格\s+([\d,]+(?:\.\d+)?)"),
+    re.compile(r"轉換價[：:]\s*([\d,]+(?:\.\d+)?)\s*元?"),
 ]
 
 # 轉換價格的合理範圍（每股台幣），排除面額 100,000 等非股價數字
@@ -157,9 +157,9 @@ def _extract_conversion_price(pdf_bytes: bytes) -> str | None:
                 return price_str
 
     # Pass 2: find every occurrence of 轉換價格, then look up to 500 chars
-    # after it for a monetary amount (新台幣/新臺幣 + number + 元).
+    # after it for a number followed by 元.
     # This handles table layouts where header and value are separated.
-    money_re = re.compile(r"(?:新台幣|新臺幣)\s*([\d,]+(?:\.\d+)?)\s*元")
+    money_re = re.compile(r"([\d,]+(?:\.\d+)?)\s*元")
     search_start = 0
     while True:
         idx = text.find("轉換價格", search_start)
