@@ -31,6 +31,17 @@ from pdfminer.high_level import extract_text
 
 BASE_URL = "https://web.twsa.org.tw/EDOC2/"
 LIST_URL = BASE_URL + "default.aspx"
+DOWNLOAD_BASE = "https://web.twsa.org.tw"
+
+# Pattern to extract the FileDownload.ashx URL from the POST response HTML/JS
+_DOWNLOAD_URL_RE = re.compile(
+    r"""(?:window\.location(?:\.href)?\s*=\s*|url\s*=\s*|href\s*=\s*)['"]([^'"]*FileDownload[^'"]+)['"]""",
+    re.IGNORECASE,
+)
+_DOWNLOAD_HREF_RE = re.compile(
+    r"""href=['"]([^'"]*FileDownload\.ashx[^'"]+)['"]""",
+    re.IGNORECASE,
+)
 
 HEADERS = {
     "User-Agent": (
@@ -138,8 +149,36 @@ def _extract_conversion_price(pdf_bytes: bytes) -> str | None:
     return None
 
 
+def _resolve_download_url(html: str) -> str | None:
+    """Extract FileDownload.ashx URL from HTML/JS in POST response."""
+    for pattern in (_DOWNLOAD_URL_RE, _DOWNLOAD_HREF_RE):
+        m = pattern.search(html)
+        if m:
+            url = m.group(1)
+            if url.startswith("/"):
+                return DOWNLOAD_BASE + url
+            if url.startswith("http"):
+                return url
+            return BASE_URL + url
+    # Also look for raw FileDownload.ashx occurrence with query string
+    m = re.search(r"""['"]([^'"]*edoc2/FileDownload\.ashx\?[^'"]+)['"]""", html, re.IGNORECASE)
+    if m:
+        url = m.group(1)
+        if url.startswith("/"):
+            return DOWNLOAD_BASE + url
+        if url.startswith("http"):
+            return url
+        return "https://web.twsa.org.tw/" + url.lstrip("/")
+    return None
+
+
 def _download_pdf(session: requests.Session, btn_name: str) -> bytes | None:
-    """Fresh GET → POST pattern: fetch new VIEWSTATE before every download."""
+    """Fresh GET → POST pattern: fetch new VIEWSTATE before every download.
+
+    The server does not stream the PDF directly; instead the POST response
+    contains JavaScript / HTML that redirects to a FileDownload.ashx URL.
+    We parse that URL out and GET it directly.
+    """
     # Step 1: fresh page load for a valid VIEWSTATE
     try:
         page = session.get(LIST_URL, headers=HEADERS, timeout=30)
@@ -171,8 +210,20 @@ def _download_pdf(session: requests.Session, btn_name: str) -> bytes | None:
             print(f"    PDF 成功 ({len(resp.content)} bytes)")
             return resp.content
 
-        # requests followed redirect but final response isn't PDF
-        print(f"    非 PDF 回應，前150字: {resp.text[:150]}")
+        # Server returned HTML — extract the real download URL from it
+        download_url = _resolve_download_url(resp.text)
+        if download_url:
+            print(f"    發現下載連結: {download_url[:100]}")
+            pdf_resp = session.get(download_url, headers=HEADERS, timeout=30)
+            pdf_resp.raise_for_status()
+            if pdf_resp.content[:4] == b"%PDF" or "pdf" in pdf_resp.headers.get("Content-Type", ""):
+                print(f"    PDF 成功 ({len(pdf_resp.content)} bytes)")
+                return pdf_resp.content
+            print(f"    下載連結非 PDF: {pdf_resp.headers.get('Content-Type', '')}")
+            return None
+
+        # Log enough of the response to diagnose further
+        print(f"    未找到下載連結，回應前300字: {resp.text[:300].replace(chr(10), '|')}")
         return None
 
     except Exception as exc:
@@ -232,12 +283,9 @@ def fetch_year(session: requests.Session, roc_year: int) -> list[dict]:
 
         price = _extract_conversion_price(pdf_bytes)
         if not price:
-            # Print extracted text to diagnose pattern mismatches
             try:
                 full_text = extract_text(io.BytesIO(pdf_bytes))
-                # Print in 200-char chunks so log is readable
-                for i in range(0, min(len(full_text), 800), 200):
-                    print(f"    PDF[{i}:{i+200}]: {full_text[i:i+200].replace(chr(10), '|')}")
+                print(f"    PDF 前400字: {full_text[:400].replace(chr(10), '|')}")
             except Exception:
                 pass
         print(f"    -> 轉換價: {price or '未找到'}")
