@@ -22,6 +22,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: pip install requests pdfminer.six beautifulsoup4
+
+      - name: Fetch conversion prices from twsa.org.tw
+        run: python3 scripts/fetch_conversion_prices.py
+
       - name: Check for changes and notify Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
@@ -34,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add calendar/twse-auction.ics calendar/snapshot.json
+          git add calendar/twse-auction.ics calendar/snapshot.json scripts/conversion_prices.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
