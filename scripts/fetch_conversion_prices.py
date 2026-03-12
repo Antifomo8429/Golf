@@ -289,7 +289,7 @@ def fetch_year(session: requests.Session, roc_year: int) -> list[dict]:
                 # Show chars around the 轉換價格 keyword to understand format
                 idx = full_text.find("轉換價格")
                 if idx >= 0:
-                    snippet = full_text[max(0, idx-20):idx+300]
+                    snippet = full_text[max(0, idx-20):idx+1000]
                     print(f"    轉換價格附近[{idx}]: {snippet.replace(chr(10), '|')}")
                 else:
                     print(f"    PDF 前400字: {full_text[:400].replace(chr(10), '|')}")
