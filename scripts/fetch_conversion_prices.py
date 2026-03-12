@@ -172,18 +172,19 @@ def _resolve_download_url(html: str) -> str | None:
     return None
 
 
-def _download_pdf(session: requests.Session, btn_name: str) -> bytes | None:
-    """Fresh GET → POST pattern: fetch new VIEWSTATE before every download.
+def _download_pdf(session: requests.Session, btn_name: str, roc_year: int) -> bytes | None:
+    """Fresh GET (year-specific) → POST pattern: fetch new VIEWSTATE before every download.
+
+    Must use _get_year_page so the VIEWSTATE matches the year's session context;
+    a plain GET returns the default year and the button POST is silently ignored.
 
     The server does not stream the PDF directly; instead the POST response
     contains JavaScript / HTML that redirects to a FileDownload.ashx URL.
     We parse that URL out and GET it directly.
     """
-    # Step 1: fresh page load for a valid VIEWSTATE
+    # Step 1: fresh year-specific page for a valid VIEWSTATE
     try:
-        page = session.get(LIST_URL, headers=HEADERS, timeout=30)
-        page.raise_for_status()
-        hidden, _ = _parse_page(page.text)
+        _, hidden, _ = _get_year_page(session, roc_year)
     except Exception as exc:
         print(f"    頁面載入失敗: {exc}")
         return None
@@ -268,7 +269,7 @@ def fetch_year(session: requests.Session, roc_year: int) -> list[dict]:
         company = row["company"]
         print(f"  處理: {company} {row['bid_start']}~{row['bid_end']} ...")
 
-        pdf_bytes = _download_pdf(session, row["btn_name"])
+        pdf_bytes = _download_pdf(session, row["btn_name"], roc_year)
         if pdf_bytes is None:
             print(f"    -> 無法下載 PDF，跳過")
             results.append({
