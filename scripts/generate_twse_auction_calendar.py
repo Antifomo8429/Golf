@@ -152,6 +152,9 @@ def build_events(fields: list[str], rows: list[list[str]]) -> list[CalendarEvent
         bid_end = value_or_dash(row, "投標結束日")
         open_date = value_or_dash(row, "開標日期")
         allotment_date = value_or_dash(row, "撥券日期(上市、上櫃日期)")
+        conversion_price = row.get("轉換價", "").strip()
+
+        is_convertible = "轉換公司債" in issue_type
 
         for date_field, event_type in EVENT_DATE_FIELDS:
             event_date = parse_twse_date(row.get(date_field, ""))
@@ -159,26 +162,29 @@ def build_events(fields: list[str], rows: list[list[str]]) -> list[CalendarEvent
                 continue
 
             summary = f"[TWSE競拍] {security_name}({security_code}) {event_type}"
-            description = "\n".join(
-                [
-                    f"事件：{event_type}",
-                    f"證券名稱：{security_name}",
-                    f"證券代號：{security_code}",
-                    f"發行市場：{market}",
-                    f"發行性質：{issue_type}",
-                    f"競拍方式：{auction_method}",
-                    f"競拍數量(張)：{quantity}",
-                    f"最低投標價格(元)：{min_price}",
-                    f"最低每標單投標數量(張)：{min_bid_qty}",
-                    f"最高投(得)標數量(張)：{max_bid_qty}",
-                    f"主辦券商：{broker}",
-                    f"投標開始日：{bid_start}",
-                    f"投標結束日：{bid_end}",
-                    f"開標日期：{open_date}",
-                    f"撥券日期：{allotment_date}",
-                    f"資料來源：{SOURCE_PAGE}",
-                ]
-            )
+            desc_lines = [
+                f"事件：{event_type}",
+                f"證券名稱：{security_name}",
+                f"證券代號：{security_code}",
+                f"發行市場：{market}",
+                f"發行性質：{issue_type}",
+            ]
+            if is_convertible and conversion_price:
+                desc_lines.append(f"轉換價(元)：{conversion_price}")
+            desc_lines += [
+                f"競拍方式：{auction_method}",
+                f"競拍數量(張)：{quantity}",
+                f"最低投標價格(元)：{min_price}",
+                f"最低每標單投標數量(張)：{min_bid_qty}",
+                f"最高投(得)標數量(張)：{max_bid_qty}",
+                f"主辦券商：{broker}",
+                f"投標開始日：{bid_start}",
+                f"投標結束日：{bid_end}",
+                f"開標日期：{open_date}",
+                f"撥券日期：{allotment_date}",
+                f"資料來源：{SOURCE_PAGE}",
+            ]
+            description = "\n".join(desc_lines)
             uid_source = "|".join(
                 [
                     security_code,

@@ -47,6 +47,7 @@ FIELD_LABELS = {
     "得標加權平均價格(元)": "得標加權平均價格",
     "實際承銷價格(元)": "實際承銷價格",
     "取消競價拍賣(流標或取消)": "取消競價拍賣",
+    "轉換價": "轉換價格",
 }
 
 
@@ -155,19 +156,24 @@ def send_discord(
     for row in added:
         name = row.get("證券名稱", "").strip()
         code = row.get("證券代號", "").strip()
+        issue_type = row.get("發行性質", "")
+        fields_list = [
+            {"name": "發行性質", "value": issue_type or "-", "inline": True},
+            {"name": "發行市場", "value": row.get("發行市場", "-") or "-", "inline": True},
+            {"name": "主辦券商", "value": row.get("主辦券商", "-") or "-", "inline": True},
+            {"name": "投標期間", "value": f"{row.get('投標開始日', '-')} ~ {row.get('投標結束日', '-')}", "inline": True},
+            {"name": "開標日期", "value": row.get("開標日期", "-") or "-", "inline": True},
+            {"name": "撥券日期", "value": row.get("撥券日期(上市、上櫃日期)", "-") or "-", "inline": True},
+            {"name": "競拍數量", "value": f"{row.get('競拍數量(張)', '-')} 張", "inline": True},
+            {"name": "最低投標價格", "value": f"{row.get('最低投標價格(元)', '-')} 元", "inline": True},
+        ]
+        conversion_price = row.get("轉換價", "").strip()
+        if "轉換公司債" in issue_type and conversion_price:
+            fields_list.append({"name": "轉換價格", "value": f"{conversion_price} 元", "inline": True})
         embeds.append({
             "title": f"🆕 新增拍賣｜{name}（{code}）",
             "color": 0x22C55E,
-            "fields": [
-                {"name": "發行性質", "value": row.get("發行性質", "-") or "-", "inline": True},
-                {"name": "發行市場", "value": row.get("發行市場", "-") or "-", "inline": True},
-                {"name": "主辦券商", "value": row.get("主辦券商", "-") or "-", "inline": True},
-                {"name": "投標期間", "value": f"{row.get('投標開始日', '-')} ~ {row.get('投標結束日', '-')}", "inline": True},
-                {"name": "開標日期", "value": row.get("開標日期", "-") or "-", "inline": True},
-                {"name": "撥券日期", "value": row.get("撥券日期(上市、上櫃日期)", "-") or "-", "inline": True},
-                {"name": "競拍數量", "value": f"{row.get('競拍數量(張)', '-')} 張", "inline": True},
-                {"name": "最低投標價格", "value": f"{row.get('最低投標價格(元)', '-')} 元", "inline": True},
-            ],
+            "fields": fields_list,
         })
 
     for row, diffs in changed:
