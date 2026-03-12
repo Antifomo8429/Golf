@@ -50943,35 +50943,36 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a160c8f5589848af419976a4c4a35a9494ca73a7@twse-auction-calendar
-DTSTAMP:20440728T093341Z
+DTSTAMP:20040712T020617Z
 DTSTART;VALUE=DATE:20260105
 DTEND;VALUE=DATE:20260106
 SUMMARY:[TWSE競拍] 天品三(61993) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：天品三\n證券代號
  ：61993\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：2\,160\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：216\n主辦券商：群益金鼎\n投標開始日：2026/01/05\n
- 投標結束日：2026/01/07\n開標日期：2026/01/09\n撥券日期：202
- 6/01/20\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：102.50\n競拍方式：美國標\n競拍數量(張)
+ ：2\,160\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：216\n主辦券商：群益金鼎\n投
+ 標開始日：2026/01/05\n投標結束日：2026/01/07\n開標日期：202
+ 6/01/09\n撥券日期：2026/01/20\n資料來源：https://www.twse.com.tw/
+ zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cc1bcb52a9ae040149ae96ce5d7e8aba8f437c3a@twse-auction-calendar
-DTSTAMP:20200424T165017Z
+DTSTAMP:20050919T165459Z
 DTSTART;VALUE=DATE:20260105
 DTEND;VALUE=DATE:20260106
 SUMMARY:[TWSE競拍] 尖點二(80212) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：尖點二\n證券代號
  ：80212\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：6\,650\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：665\n主辦券商：福邦\n投標開始日：2026/01/05\n投標
- 結束日：2026/01/07\n開標日期：2026/01/09\n撥券日期：2026/01/2
- 0\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：102.50\n競拍方式：美國標\n競拍數量(張)
+ ：6\,650\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：665\n主辦券商：福邦\n投標開
+ 始日：2026/01/05\n投標結束日：2026/01/07\n開標日期：2026/01/0
+ 9\n撥券日期：2026/01/20\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51046,18 +51047,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:48373e98d5ad937293a90671634d33baf3c5bfc4@twse-auction-calendar
-DTSTAMP:20280516T060842Z
+DTSTAMP:20040307T050837Z
 DTSTART;VALUE=DATE:20260106
 DTEND;VALUE=DATE:20260107
 SUMMARY:[TWSE競拍] 聯嘉投控一(37171) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：聯嘉投控一\n證券
  代號：37171\n發行市場：櫃檯買賣\n發行性質：有擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投
- 標價格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)
- 標數量(張)：595\n主辦券商：國泰\n投標開始日：2026/01/06\n
- 投標結束日：2026/01/08\n開標日期：2026/01/12\n撥券日期：202
- 6/01/21\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 公司債\n轉換價(元)：16.90\n競拍方式：美國標\n競拍數量(
+ 張)：5\,950\n最低投標價格(元)：100\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：595\n主辦券商：國泰\n投標
+ 開始日：2026/01/06\n投標結束日：2026/01/08\n開標日期：2026/0
+ 1/12\n撥券日期：2026/01/21\n資料來源：https://www.twse.com.tw/zh/
+ announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51098,35 +51099,36 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8c69c39a58db4438f382167e44735af5a952096b@twse-auction-calendar
-DTSTAMP:20060807T092800Z
+DTSTAMP:20480605T020138Z
 DTSTART;VALUE=DATE:20260107
 DTEND;VALUE=DATE:20260108
 SUMMARY:[TWSE競拍] 天品三(61993) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：天品三\n證券代號
  ：61993\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：2\,160\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：216\n主辦券商：群益金鼎\n投標開始日：2026/01/05\n
- 投標結束日：2026/01/07\n開標日期：2026/01/09\n撥券日期：202
- 6/01/20\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：102.50\n競拍方式：美國標\n競拍數量(張)
+ ：2\,160\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：216\n主辦券商：群益金鼎\n投
+ 標開始日：2026/01/05\n投標結束日：2026/01/07\n開標日期：202
+ 6/01/09\n撥券日期：2026/01/20\n資料來源：https://www.twse.com.tw/
+ zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:67e5cb971b628833e46a189414821bee68485489@twse-auction-calendar
-DTSTAMP:20270216T193411Z
+DTSTAMP:20450717T104241Z
 DTSTART;VALUE=DATE:20260107
 DTEND;VALUE=DATE:20260108
 SUMMARY:[TWSE競拍] 尖點二(80212) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：尖點二\n證券代號
  ：80212\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：6\,650\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：665\n主辦券商：福邦\n投標開始日：2026/01/05\n投標
- 結束日：2026/01/07\n開標日期：2026/01/09\n撥券日期：2026/01/2
- 0\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：102.50\n競拍方式：美國標\n競拍數量(張)
+ ：6\,650\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：665\n主辦券商：福邦\n投標開
+ 始日：2026/01/05\n投標結束日：2026/01/07\n開標日期：2026/01/0
+ 9\n撥券日期：2026/01/20\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51202,18 +51204,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e9f2de058a2340a0cf54df8f7a6016d74eec014e@twse-auction-calendar
-DTSTAMP:20180731T130219Z
+DTSTAMP:20380317T053233Z
 DTSTART;VALUE=DATE:20260108
 DTEND;VALUE=DATE:20260109
 SUMMARY:[TWSE競拍] 聯嘉投控一(37171) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：聯嘉投控一\n證券
  代號：37171\n發行市場：櫃檯買賣\n發行性質：有擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投
- 標價格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)
- 標數量(張)：595\n主辦券商：國泰\n投標開始日：2026/01/06\n
- 投標結束日：2026/01/08\n開標日期：2026/01/12\n撥券日期：202
- 6/01/21\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 公司債\n轉換價(元)：16.90\n競拍方式：美國標\n競拍數量(
+ 張)：5\,950\n最低投標價格(元)：100\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：595\n主辦券商：國泰\n投標
+ 開始日：2026/01/06\n投標結束日：2026/01/08\n開標日期：2026/0
+ 1/12\n撥券日期：2026/01/21\n資料來源：https://www.twse.com.tw/zh/
+ announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51254,34 +51256,36 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e9dbbb7658ada92e088ca920ef07467b4b3ab3f@twse-auction-calendar
-DTSTAMP:20160914T033205Z
+DTSTAMP:20420117T130700Z
 DTSTART;VALUE=DATE:20260109
 DTEND;VALUE=DATE:20260110
 SUMMARY:[TWSE競拍] 天品三(61993) 開標
 DESCRIPTION:事件：開標\n證券名稱：天品三\n證券代號：61993
- \n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：2\,160\n最低投標價格(元)
- ：100\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：216\n主辦券商：群益金鼎\n投標開始日：2026/01/05\n投標
- 結束日：2026/01/07\n開標日期：2026/01/09\n撥券日期：2026/01/2
- 0\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司債\n轉
+ 換價(元)：102.50\n競拍方式：美國標\n競拍數量(張)：2\,160\
+ n最低投標價格(元)：100\n最低每標單投標數量(張)：1\n最
+ 高投(得)標數量(張)：216\n主辦券商：群益金鼎\n投標開始
+ 日：2026/01/05\n投標結束日：2026/01/07\n開標日期：2026/01/09\n
+ 撥券日期：2026/01/20\n資料來源：https://www.twse.com.tw/zh/announ
+ cement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5a7726ab53fc65339acdb25a498afc38e17c362@twse-auction-calendar
-DTSTAMP:20291010T010214Z
+DTSTAMP:20210727T065857Z
 DTSTART;VALUE=DATE:20260109
 DTEND;VALUE=DATE:20260110
 SUMMARY:[TWSE競拍] 尖點二(80212) 開標
 DESCRIPTION:事件：開標\n證券名稱：尖點二\n證券代號：80212
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：6\,650\n最低投標價格(元)
- ：100\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：665\n主辦券商：福邦\n投標開始日：2026/01/05\n投標結束
- 日：2026/01/07\n開標日期：2026/01/09\n撥券日期：2026/01/20\n資
- 料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
+ 換價(元)：102.50\n競拍方式：美國標\n競拍數量(張)：6\,650\
+ n最低投標價格(元)：100\n最低每標單投標數量(張)：1\n最
+ 高投(得)標數量(張)：665\n主辦券商：福邦\n投標開始日：2
+ 026/01/05\n投標結束日：2026/01/07\n開標日期：2026/01/09\n撥券
+ 日期：2026/01/20\n資料來源：https://www.twse.com.tw/zh/announcement
+ /auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51323,35 +51327,36 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ddd26d99ddbe07d150d6414ad112b23e2471a094@twse-auction-calendar
-DTSTAMP:20211004T223621Z
+DTSTAMP:20371102T145904Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 SUMMARY:[TWSE競拍] 全新三(24553) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：全新三\n證券代號
  ：24553\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：4\,500\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：450\n主辦券商：群益金鼎\n投標開始日：2026/01/12\n
- 投標結束日：2026/01/14\n開標日期：2026/01/16\n撥券日期：202
- 6/01/27\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：148\n競拍方式：美國標\n競拍數量(張)：4\
+ ,500\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：450\n主辦券商：群益金鼎\n投標開
+ 始日：2026/01/12\n投標結束日：2026/01/14\n開標日期：2026/01/1
+ 6\n撥券日期：2026/01/27\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3cf73b6e4c0f4418e0ada6347413d06cb9d6bc3f@twse-auction-calendar
-DTSTAMP:20420922T060545Z
+DTSTAMP:20220923T010604Z
 DTSTART;VALUE=DATE:20260112
 DTEND;VALUE=DATE:20260113
 SUMMARY:[TWSE競拍] 聯嘉投控一(37171) 開標
 DESCRIPTION:事件：開標\n證券名稱：聯嘉投控一\n證券代號
  ：37171\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：595\n主辦券商：國泰\n投標開始日：2026/01/06\n投標
- 結束日：2026/01/08\n開標日期：2026/01/12\n撥券日期：2026/01/2
- 1\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：16.90\n競拍方式：美國標\n競拍數量(張)：
+ 5\,950\n最低投標價格(元)：100\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：595\n主辦券商：國泰\n投標開始
+ 日：2026/01/06\n投標結束日：2026/01/08\n開標日期：2026/01/12\n
+ 撥券日期：2026/01/21\n資料來源：https://www.twse.com.tw/zh/announ
+ cement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51444,18 +51449,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:01fbc406a07769431817cf430d4356cf86d7b435@twse-auction-calendar
-DTSTAMP:20360923T195324Z
+DTSTAMP:20140825T123950Z
 DTSTART;VALUE=DATE:20260114
 DTEND;VALUE=DATE:20260115
 SUMMARY:[TWSE競拍] 全新三(24553) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：全新三\n證券代號
  ：24553\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：4\,500\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：450\n主辦券商：群益金鼎\n投標開始日：2026/01/12\n
- 投標結束日：2026/01/14\n開標日期：2026/01/16\n撥券日期：202
- 6/01/27\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：148\n競拍方式：美國標\n競拍數量(張)：4\
+ ,500\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：450\n主辦券商：群益金鼎\n投標開
+ 始日：2026/01/12\n投標結束日：2026/01/14\n開標日期：2026/01/1
+ 6\n撥券日期：2026/01/27\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51549,17 +51554,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:793b10b9c22817cca492d04eac3406bcd380b641@twse-auction-calendar
-DTSTAMP:20420219T023343Z
+DTSTAMP:20170318T041730Z
 DTSTART;VALUE=DATE:20260116
 DTEND;VALUE=DATE:20260117
 SUMMARY:[TWSE競拍] 全新三(24553) 開標
 DESCRIPTION:事件：開標\n證券名稱：全新三\n證券代號：24553
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：4\,500\n最低投標價格(元)
- ：102\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：450\n主辦券商：群益金鼎\n投標開始日：2026/01/12\n投標
- 結束日：2026/01/14\n開標日期：2026/01/16\n撥券日期：2026/01/2
- 7\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
+ 換價(元)：148\n競拍方式：美國標\n競拍數量(張)：4\,500\n
+ 最低投標價格(元)：102\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：450\n主辦券商：群益金鼎\n投標開始日
+ ：2026/01/12\n投標結束日：2026/01/14\n開標日期：2026/01/16\n撥
+ 券日期：2026/01/27\n資料來源：https://www.twse.com.tw/zh/announcem
+ ent/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51686,17 +51692,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b959d481b25d2579de8367a0c40118fbe7c9b233@twse-auction-calendar
-DTSTAMP:20320929T015538Z
+DTSTAMP:20140207T044431Z
 DTSTART;VALUE=DATE:20260119
 DTEND;VALUE=DATE:20260120
 SUMMARY:[TWSE競拍] 勤誠三(82103) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：勤誠三\n證券代號
  ：82103\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：630\n主辦券商：元大\n投標開始日：2026/01/19\n投標
- 結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/02/0
- 3\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：91.80\n競拍方式：美國標\n競拍數量(張)：
+ 6\,300\n最低投標價格(元)：102\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：630\n主辦券商：元大\n投標開始
+ 日：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n
+ 撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announ
+ cement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51720,36 +51727,36 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f478f716dab666dfc654af0b0e954dc613ed53cc@twse-auction-calendar
-DTSTAMP:20070721T022643Z
+DTSTAMP:20281224T083219Z
 DTSTART;VALUE=DATE:20260119
 DTEND;VALUE=DATE:20260120
 SUMMARY:[TWSE競拍] 騰輝電子二KY(66722) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：騰輝電子二KY\n證券
  代號：66722\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投
- 標價格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)
- 標數量(張)：445\n主辦券商：永豐金\n投標開始日：2026/01/1
- 9\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：
- 2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcement/auction.
- html
+ 公司債\n轉換價(元)：91.80\n競拍方式：美國標\n競拍數量(
+ 張)：4\,450\n最低投標價格(元)：100\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：445\n主辦券商：永豐金\n投
+ 標開始日：2026/01/19\n投標結束日：2026/01/21\n開標日期：202
+ 6/01/23\n撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/
+ zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26bb2d70fdfedd5291a7effc014a149c133e6c05@twse-auction-calendar
-DTSTAMP:20050816T103920Z
+DTSTAMP:20361206T072235Z
 DTSTART;VALUE=DATE:20260120
 DTEND;VALUE=DATE:20260121
 SUMMARY:[TWSE競拍] 天品三(61993) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：天品三\n證券代號
  ：61993\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：2\,160\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：216\n主辦券商：群益金鼎\n投標開始日：2026/01/05\n
- 投標結束日：2026/01/07\n開標日期：2026/01/09\n撥券日期：202
- 6/01/20\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：102.50\n競拍方式：美國標\n競拍數量(張)
+ ：2\,160\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：216\n主辦券商：群益金鼎\n投
+ 標開始日：2026/01/05\n投標結束日：2026/01/07\n開標日期：202
+ 6/01/09\n撥券日期：2026/01/20\n資料來源：https://www.twse.com.tw/
+ zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51791,17 +51798,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:116b3d53855b9bb486fad8594883a3e8c6ae8727@twse-auction-calendar
-DTSTAMP:20260808T024724Z
+DTSTAMP:20280222T204525Z
 DTSTART;VALUE=DATE:20260120
 DTEND;VALUE=DATE:20260121
 SUMMARY:[TWSE競拍] 尖點二(80212) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：尖點二\n證券代號
  ：80212\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：6\,650\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：665\n主辦券商：福邦\n投標開始日：2026/01/05\n投標
- 結束日：2026/01/07\n開標日期：2026/01/09\n撥券日期：2026/01/2
- 0\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：102.50\n競拍方式：美國標\n競拍數量(張)
+ ：6\,650\n最低投標價格(元)：100\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：665\n主辦券商：福邦\n投標開
+ 始日：2026/01/05\n投標結束日：2026/01/07\n開標日期：2026/01/0
+ 9\n撥券日期：2026/01/20\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51825,17 +51833,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f8dad293b5f54226bb0dbd80605e1b79ddcd3c5f@twse-auction-calendar
-DTSTAMP:20070319T004103Z
+DTSTAMP:20320307T010708Z
 DTSTART;VALUE=DATE:20260120
 DTEND;VALUE=DATE:20260121
 SUMMARY:[TWSE競拍] 閎康二(35872) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：閎康二\n證券代號
  ：35872\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：595\n主辦券商：元大\n投標開始日：2026/01/20\n投標
- 結束日：2026/01/22\n開標日期：2026/01/26\n撥券日期：2026/02/0
- 4\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：198\n競拍方式：美國標\n競拍數量(張)：5\
+ ,950\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：595\n主辦券商：元大\n投標開始日
+ ：2026/01/20\n投標結束日：2026/01/22\n開標日期：2026/01/26\n撥
+ 券日期：2026/02/04\n資料來源：https://www.twse.com.tw/zh/announcem
+ ent/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51876,17 +51885,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ce4535f91371ebe5ea3220f4f0bb57e96a97e10b@twse-auction-calendar
-DTSTAMP:20120331T045926Z
+DTSTAMP:20240423T052959Z
 DTSTART;VALUE=DATE:20260121
 DTEND;VALUE=DATE:20260122
 SUMMARY:[TWSE競拍] 勤誠三(82103) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：勤誠三\n證券代號
  ：82103\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：630\n主辦券商：元大\n投標開始日：2026/01/19\n投標
- 結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/02/0
- 3\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：91.80\n競拍方式：美國標\n競拍數量(張)：
+ 6\,300\n最低投標價格(元)：102\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：630\n主辦券商：元大\n投標開始
+ 日：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n
+ 撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announ
+ cement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51911,53 +51921,54 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f8a1b989f547e2a1d730e4174c839bed822dbc8a@twse-auction-calendar
-DTSTAMP:20271030T062912Z
+DTSTAMP:20410411T194100Z
 DTSTART;VALUE=DATE:20260121
 DTEND;VALUE=DATE:20260122
 SUMMARY:[TWSE競拍] 穎崴二(65152) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：穎崴二\n證券代號
  ：65152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：25\,500\n最低投標價
- 格(元)：103\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：2\,550\n主辦券商：凱基\n投標開始日：2026/01/21\n投
- 標結束日：2026/01/23\n開標日期：2026/01/27\n撥券日期：2026/0
- 2/05\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：3450\n競拍方式：美國標\n競拍數量(張)：2
+ 5\,500\n最低投標價格(元)：103\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：2\,550\n主辦券商：凱基\n投標開
+ 始日：2026/01/21\n投標結束日：2026/01/23\n開標日期：2026/01/2
+ 7\n撥券日期：2026/02/05\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d626360bf8969d6d4f992ed628160cf9c201d294@twse-auction-calendar
-DTSTAMP:20000315T134226Z
+DTSTAMP:20230928T152300Z
 DTSTART;VALUE=DATE:20260121
 DTEND;VALUE=DATE:20260122
 SUMMARY:[TWSE競拍] 聯嘉投控一(37171) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：聯嘉投控一\n證券
  代號：37171\n發行市場：櫃檯買賣\n發行性質：有擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投
- 標價格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)
- 標數量(張)：595\n主辦券商：國泰\n投標開始日：2026/01/06\n
- 投標結束日：2026/01/08\n開標日期：2026/01/12\n撥券日期：202
- 6/01/21\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 公司債\n轉換價(元)：16.90\n競拍方式：美國標\n競拍數量(
+ 張)：5\,950\n最低投標價格(元)：100\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：595\n主辦券商：國泰\n投標
+ 開始日：2026/01/06\n投標結束日：2026/01/08\n開標日期：2026/0
+ 1/12\n撥券日期：2026/01/21\n資料來源：https://www.twse.com.tw/zh/
+ announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:173e825dfec40c92fb8aa2a5697c0a34e7cf26dd@twse-auction-calendar
-DTSTAMP:20450113T221350Z
+DTSTAMP:20090903T005909Z
 DTSTART;VALUE=DATE:20260121
 DTEND;VALUE=DATE:20260122
 SUMMARY:[TWSE競拍] 騰輝電子二KY(66722) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：騰輝電子二KY\n證券
  代號：66722\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投
- 標價格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)
- 標數量(張)：445\n主辦券商：永豐金\n投標開始日：2026/01/1
- 9\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：
- 2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcement/auction.
- html
+ 公司債\n轉換價(元)：91.80\n競拍方式：美國標\n競拍數量(
+ 張)：4\,450\n最低投標價格(元)：100\n最低每標單投標數量(
+ 張)：1\n最高投(得)標數量(張)：445\n主辦券商：永豐金\n投
+ 標開始日：2026/01/19\n投標結束日：2026/01/21\n開標日期：202
+ 6/01/23\n撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/
+ zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52050,17 +52061,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:64eb621a0002d66ae0675cf00548f82bfbb3205a@twse-auction-calendar
-DTSTAMP:20381227T020242Z
+DTSTAMP:20040810T052626Z
 DTSTART;VALUE=DATE:20260122
 DTEND;VALUE=DATE:20260123
 SUMMARY:[TWSE競拍] 閎康二(35872) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：閎康二\n證券代號
  ：35872\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：595\n主辦券商：元大\n投標開始日：2026/01/20\n投標
- 結束日：2026/01/22\n開標日期：2026/01/26\n撥券日期：2026/02/0
- 4\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：198\n競拍方式：美國標\n競拍數量(張)：5\
+ ,950\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：595\n主辦券商：元大\n投標開始日
+ ：2026/01/20\n投標結束日：2026/01/22\n開標日期：2026/01/26\n撥
+ 券日期：2026/02/04\n資料來源：https://www.twse.com.tw/zh/announcem
+ ent/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52084,17 +52096,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49a5ce0399085d4c1ed4dc0f0c4cadfee545f69d@twse-auction-calendar
-DTSTAMP:20410122T200441Z
+DTSTAMP:20141009T035345Z
 DTSTART;VALUE=DATE:20260123
 DTEND;VALUE=DATE:20260124
 SUMMARY:[TWSE競拍] 勤誠三(82103) 開標
 DESCRIPTION:事件：開標\n證券名稱：勤誠三\n證券代號：82103
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價格(元)
- ：102\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：630\n主辦券商：元大\n投標開始日：2026/01/19\n投標結束
- 日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/02/03\n資
- 料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
+ 換價(元)：91.80\n競拍方式：美國標\n競拍數量(張)：6\,300\n
+ 最低投標價格(元)：102\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：630\n主辦券商：元大\n投標開始日：2026
+ /01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日
+ 期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcement/au
+ ction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52119,69 +52132,72 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8fefb14293ee1481a14ff6fd285b8df3714695dd@twse-auction-calendar
-DTSTAMP:20470102T103250Z
+DTSTAMP:20330501T053301Z
 DTSTART;VALUE=DATE:20260123
 DTEND;VALUE=DATE:20260124
 SUMMARY:[TWSE競拍] 穎崴二(65152) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：穎崴二\n證券代號
  ：65152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：25\,500\n最低投標價
- 格(元)：103\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：2\,550\n主辦券商：凱基\n投標開始日：2026/01/21\n投
- 標結束日：2026/01/23\n開標日期：2026/01/27\n撥券日期：2026/0
- 2/05\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：3450\n競拍方式：美國標\n競拍數量(張)：2
+ 5\,500\n最低投標價格(元)：103\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：2\,550\n主辦券商：凱基\n投標開
+ 始日：2026/01/21\n投標結束日：2026/01/23\n開標日期：2026/01/2
+ 7\n撥券日期：2026/02/05\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c0a6286d4ade74d14204ff8d1f4e9deb9b50d3f4@twse-auction-calendar
-DTSTAMP:20380603T160414Z
+DTSTAMP:20470320T090910Z
 DTSTART;VALUE=DATE:20260123
 DTEND;VALUE=DATE:20260124
 SUMMARY:[TWSE競拍] 騰輝電子二KY(66722) 開標
 DESCRIPTION:事件：開標\n證券名稱：騰輝電子二KY\n證券代號
  ：66722\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：445\n主辦券商：永豐金\n投標開始日：2026/01/19\n投
- 標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/0
- 2/03\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：91.80\n競拍方式：美國標\n競拍數量(張)：
+ 4\,450\n最低投標價格(元)：100\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：445\n主辦券商：永豐金\n投標開
+ 始日：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/01/2
+ 3\n撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8f6f1aed700d8db6d5dfcbd39d3c75674f5ebf43@twse-auction-calendar
-DTSTAMP:20261109T183950Z
+DTSTAMP:20280912T155705Z
 DTSTART;VALUE=DATE:20260126
 DTEND;VALUE=DATE:20260127
 SUMMARY:[TWSE競拍] 閎康二(35872) 開標
 DESCRIPTION:事件：開標\n證券名稱：閎康二\n證券代號：35872
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)
- ：102\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：595\n主辦券商：元大\n投標開始日：2026/01/20\n投標結束
- 日：2026/01/22\n開標日期：2026/01/26\n撥券日期：2026/02/04\n資
- 料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
+ 換價(元)：198\n競拍方式：美國標\n競拍數量(張)：5\,950\n
+ 最低投標價格(元)：102\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：595\n主辦券商：元大\n投標開始日：2026
+ /01/20\n投標結束日：2026/01/22\n開標日期：2026/01/26\n撥券日
+ 期：2026/02/04\n資料來源：https://www.twse.com.tw/zh/announcement/au
+ ction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f53efba7cb1916d83fcc11a235a63cedc0f9e3a0@twse-auction-calendar
-DTSTAMP:20070227T053512Z
+DTSTAMP:20150704T232436Z
 DTSTART;VALUE=DATE:20260127
 DTEND;VALUE=DATE:20260128
 SUMMARY:[TWSE競拍] 全新三(24553) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：全新三\n證券代號
  ：24553\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：4\,500\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：450\n主辦券商：群益金鼎\n投標開始日：2026/01/12\n
- 投標結束日：2026/01/14\n開標日期：2026/01/16\n撥券日期：202
- 6/01/27\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：148\n競拍方式：美國標\n競拍數量(張)：4\
+ ,500\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：450\n主辦券商：群益金鼎\n投標開
+ 始日：2026/01/12\n投標結束日：2026/01/14\n開標日期：2026/01/1
+ 6\n撥券日期：2026/01/27\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52206,17 +52222,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8a3328ff976e90181fda4c2d9422101a5cbc715@twse-auction-calendar
-DTSTAMP:20190129T163901Z
+DTSTAMP:20260821T031727Z
 DTSTART;VALUE=DATE:20260127
 DTEND;VALUE=DATE:20260128
 SUMMARY:[TWSE競拍] 穎崴二(65152) 開標
 DESCRIPTION:事件：開標\n證券名稱：穎崴二\n證券代號：65152
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：25\,500\n最低投標價格(元)
- ：103\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：2\,550\n主辦券商：凱基\n投標開始日：2026/01/21\n投標結
- 束日：2026/01/23\n開標日期：2026/01/27\n撥券日期：2026/02/05\n
- 資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
+ 換價(元)：3450\n競拍方式：美國標\n競拍數量(張)：25\,500\n
+ 最低投標價格(元)：103\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：2\,550\n主辦券商：凱基\n投標開始日：2
+ 026/01/21\n投標結束日：2026/01/23\n開標日期：2026/01/27\n撥券
+ 日期：2026/02/05\n資料來源：https://www.twse.com.tw/zh/announcement
+ /auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52326,52 +52343,54 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e751855f35c3844de06f95de37befb62193f7ee8@twse-auction-calendar
-DTSTAMP:20081211T184153Z
+DTSTAMP:20190529T150806Z
 DTSTART;VALUE=DATE:20260203
 DTEND;VALUE=DATE:20260204
 SUMMARY:[TWSE競拍] 勤誠三(82103) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：勤誠三\n證券代號
  ：82103\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：630\n主辦券商：元大\n投標開始日：2026/01/19\n投標
- 結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/02/0
- 3\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：91.80\n競拍方式：美國標\n競拍數量(張)：
+ 6\,300\n最低投標價格(元)：102\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：630\n主辦券商：元大\n投標開始
+ 日：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n
+ 撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announ
+ cement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c25ee815bf20c876705ecb0954b644b821d76361@twse-auction-calendar
-DTSTAMP:20290825T130905Z
+DTSTAMP:20330307T164256Z
 DTSTART;VALUE=DATE:20260203
 DTEND;VALUE=DATE:20260204
 SUMMARY:[TWSE競拍] 騰輝電子二KY(66722) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：騰輝電子二KY\n證
  券代號：66722\n發行市場：櫃檯買賣\n發行性質：無擔保轉
- 換公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低
- 投標價格(元)：100\n最低每標單投標數量(張)：1\n最高投(
- 得)標數量(張)：445\n主辦券商：永豐金\n投標開始日：2026/
- 01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日
- 期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcement/au
- ction.html
+ 換公司債\n轉換價(元)：91.80\n競拍方式：美國標\n競拍數
+ 量(張)：4\,450\n最低投標價格(元)：100\n最低每標單投標數
+ 量(張)：1\n最高投(得)標數量(張)：445\n主辦券商：永豐金\
+ n投標開始日：2026/01/19\n投標結束日：2026/01/21\n開標日期
+ ：2026/01/23\n撥券日期：2026/02/03\n資料來源：https://www.twse.c
+ om.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65b47268b37fa52b5e9138fd7c1214bf3ca60b47@twse-auction-calendar
-DTSTAMP:20280124T074243Z
+DTSTAMP:20310426T144301Z
 DTSTART;VALUE=DATE:20260204
 DTEND;VALUE=DATE:20260205
 SUMMARY:[TWSE競拍] 閎康二(35872) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：閎康二\n證券代號
  ：35872\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：595\n主辦券商：元大\n投標開始日：2026/01/20\n投標
- 結束日：2026/01/22\n開標日期：2026/01/26\n撥券日期：2026/02/0
- 4\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：198\n競拍方式：美國標\n競拍數量(張)：5\
+ ,950\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：595\n主辦券商：元大\n投標開始日
+ ：2026/01/20\n投標結束日：2026/01/22\n開標日期：2026/01/26\n撥
+ 券日期：2026/02/04\n資料來源：https://www.twse.com.tw/zh/announcem
+ ent/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52396,192 +52415,198 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a254ca9cda446eedbe6c5521cd2c206be2b5296c@twse-auction-calendar
-DTSTAMP:20390924T133318Z
+DTSTAMP:20390622T045551Z
 DTSTART;VALUE=DATE:20260205
 DTEND;VALUE=DATE:20260206
 SUMMARY:[TWSE競拍] 穎崴二(65152) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：穎崴二\n證券代號
  ：65152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：25\,500\n最低投標價
- 格(元)：103\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：2\,550\n主辦券商：凱基\n投標開始日：2026/01/21\n投
- 標結束日：2026/01/23\n開標日期：2026/01/27\n撥券日期：2026/0
- 2/05\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：3450\n競拍方式：美國標\n競拍數量(張)：2
+ 5\,500\n最低投標價格(元)：103\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：2\,550\n主辦券商：凱基\n投標開
+ 始日：2026/01/21\n投標結束日：2026/01/23\n開標日期：2026/01/2
+ 7\n撥券日期：2026/02/05\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e7a29db94dfb80bcbf16ed5fd6b94533d76f13b3@twse-auction-calendar
-DTSTAMP:20300528T093918Z
+DTSTAMP:20170308T135712Z
 DTSTART;VALUE=DATE:20260226
 DTEND;VALUE=DATE:20260227
 SUMMARY:[TWSE競拍] 雙鴻七(33247) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：雙鴻七\n證券代號
  ：33247\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：17\,000\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：1\,700\n主辦券商：凱基\n投標開始日：2026/02/26\n投
- 標結束日：2026/03/03\n開標日期：2026/03/05\n撥券日期：2026/0
- 3/16\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：1065\n競拍方式：美國標\n競拍數量(張)：1
+ 7\,000\n最低投標價格(元)：102\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：1\,700\n主辦券商：凱基\n投標開
+ 始日：2026/02/26\n投標結束日：2026/03/03\n開標日期：2026/03/0
+ 5\n撥券日期：2026/03/16\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8c6a537e222ece2a0745d09ae8eb408d0e3fbb7a@twse-auction-calendar
-DTSTAMP:20000401T031225Z
+DTSTAMP:20390202T183842Z
 DTSTART;VALUE=DATE:20260303
 DTEND;VALUE=DATE:20260304
 SUMMARY:[TWSE競拍] 雙鴻七(33247) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：雙鴻七\n證券代號
  ：33247\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：17\,000\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：1\,700\n主辦券商：凱基\n投標開始日：2026/02/26\n投
- 標結束日：2026/03/03\n開標日期：2026/03/05\n撥券日期：2026/0
- 3/16\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：1065\n競拍方式：美國標\n競拍數量(張)：1
+ 7\,000\n最低投標價格(元)：102\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：1\,700\n主辦券商：凱基\n投標開
+ 始日：2026/02/26\n投標結束日：2026/03/03\n開標日期：2026/03/0
+ 5\n撥券日期：2026/03/16\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:56bc70b7079c876fb967f0ae2c7dda15743cd733@twse-auction-calendar
-DTSTAMP:20080130T214815Z
+DTSTAMP:20200924T151446Z
 DTSTART;VALUE=DATE:20260304
 DTEND;VALUE=DATE:20260305
 SUMMARY:[TWSE競拍] 高端疫苗二(65472) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：高端疫苗二\n證券
  代號：65472\n發行市場：櫃檯買賣\n發行性質：有擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：6\,375\n最低投
- 標價格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得
- )標數量(張)：637\n主辦券商：永豐金\n投標開始日：2026/03/
- 04\n投標結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期
- ：2026/03/19\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
- on.html
+ 公司債\n轉換價(元)：120.00\n競拍方式：美國標\n競拍數量(
+ 張)：6\,375\n最低投標價格(元)：100.5\n最低每標單投標數量
+ (張)：1\n最高投(得)標數量(張)：637\n主辦券商：永豐金\n
+ 投標開始日：2026/03/04\n投標結束日：2026/03/06\n開標日期：
+ 2026/03/10\n撥券日期：2026/03/19\n資料來源：https://www.twse.com.
+ tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c804985803d990093f3b650db76bb5aa996f54fb@twse-auction-calendar
-DTSTAMP:20340320T051040Z
+DTSTAMP:20040125T125005Z
 DTSTART;VALUE=DATE:20260304
 DTEND;VALUE=DATE:20260305
 SUMMARY:[TWSE競拍] 鴻呈一(69131) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：鴻呈一\n證券代號
  ：69131\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：3\,825\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標
- 結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/1
- 9\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：120.00\n競拍方式：美國標\n競拍數量(張)
+ ：3\,825\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：382\n主辦券商：兆豐\n投標開
+ 始日：2026/03/04\n投標結束日：2026/03/06\n開標日期：2026/03/1
+ 0\n撥券日期：2026/03/19\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75d82f94e97e1d40ed3f97ad670b1b99ea730bab@twse-auction-calendar
-DTSTAMP:20450223T233905Z
+DTSTAMP:20080412T210706Z
 DTSTART;VALUE=DATE:20260305
 DTEND;VALUE=DATE:20260306
 SUMMARY:[TWSE競拍] 聯上六(41136) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：聯上六\n證券代號
  ：41136\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：1\,810\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：181\n主辦券商：合作金庫證券\n投標開始日：2026/0
- 3/05\n投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期
- ：2026/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
- on.html
+ 債\n轉換價(元)：20.05\n競拍方式：美國標\n競拍數量(張)：
+ 1\,810\n最低投標價格(元)：100\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：181\n主辦券商：合作金庫證券\n
+ 投標開始日：2026/03/05\n投標結束日：2026/03/09\n開標日期：
+ 2026/03/11\n撥券日期：2026/03/20\n資料來源：https://www.twse.com.
+ tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e789aa13aa0da41d239e16a88fae5a93414f403@twse-auction-calendar
-DTSTAMP:20491116T214157Z
+DTSTAMP:20140322T030934Z
 DTSTART;VALUE=DATE:20260305
 DTEND;VALUE=DATE:20260306
 SUMMARY:[TWSE競拍] 雙鴻七(33247) 開標
 DESCRIPTION:事件：開標\n證券名稱：雙鴻七\n證券代號：33247
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：17\,000\n最低投標價格(元)
- ：102\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：1\,700\n主辦券商：凱基\n投標開始日：2026/02/26\n投標結
- 束日：2026/03/03\n開標日期：2026/03/05\n撥券日期：2026/03/16\n
- 資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
+ 換價(元)：1065\n競拍方式：美國標\n競拍數量(張)：17\,000\n
+ 最低投標價格(元)：102\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：1\,700\n主辦券商：凱基\n投標開始日：2
+ 026/02/26\n投標結束日：2026/03/03\n開標日期：2026/03/05\n撥券
+ 日期：2026/03/16\n資料來源：https://www.twse.com.tw/zh/announcement
+ /auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a866a3afc6c85a6e37c9eedf7fe1e8233161a0d4@twse-auction-calendar
-DTSTAMP:20340413T154242Z
+DTSTAMP:20280725T062635Z
 DTSTART;VALUE=DATE:20260306
 DTEND;VALUE=DATE:20260307
 SUMMARY:[TWSE競拍] 高端疫苗二(65472) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：高端疫苗二\n證券
  代號：65472\n發行市場：櫃檯買賣\n發行性質：有擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：6\,375\n最低投
- 標價格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得
- )標數量(張)：637\n主辦券商：永豐金\n投標開始日：2026/03/
- 04\n投標結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期
- ：2026/03/19\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
- on.html
+ 公司債\n轉換價(元)：120.00\n競拍方式：美國標\n競拍數量(
+ 張)：6\,375\n最低投標價格(元)：100.5\n最低每標單投標數量
+ (張)：1\n最高投(得)標數量(張)：637\n主辦券商：永豐金\n
+ 投標開始日：2026/03/04\n投標結束日：2026/03/06\n開標日期：
+ 2026/03/10\n撥券日期：2026/03/19\n資料來源：https://www.twse.com.
+ tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8f9881f6bf1bedbc13da61ce8a48818f0f14c16f@twse-auction-calendar
-DTSTAMP:20000830T185340Z
+DTSTAMP:20070714T032240Z
 DTSTART;VALUE=DATE:20260306
 DTEND;VALUE=DATE:20260307
 SUMMARY:[TWSE競拍] 鴻呈一(69131) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：鴻呈一\n證券代號
  ：69131\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：3\,825\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標
- 結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/1
- 9\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：120.00\n競拍方式：美國標\n競拍數量(張)
+ ：3\,825\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：382\n主辦券商：兆豐\n投標開
+ 始日：2026/03/04\n投標結束日：2026/03/06\n開標日期：2026/03/1
+ 0\n撥券日期：2026/03/19\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3cb4dbf5344772d6d6f73d152ebbf979687b399c@twse-auction-calendar
-DTSTAMP:20490116T110431Z
+DTSTAMP:20190428T122702Z
 DTSTART;VALUE=DATE:20260309
 DTEND;VALUE=DATE:20260310
 SUMMARY:[TWSE競拍] 定穎投控二(37152) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：定穎投控二\n證券
  代號：37152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投
- 標價格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)
- 標數量(張)：850\n主辦券商：凱基\n投標開始日：2026/03/09\n
- 投標結束日：2026/03/11\n開標日期：2026/03/13\n撥券日期：202
- 6/03/24\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 公司債\n轉換價(元)：153\n競拍方式：美國標\n競拍數量(張
+ )：8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：850\n主辦券商：凱基\n投標開
+ 始日：2026/03/09\n投標結束日：2026/03/11\n開標日期：2026/03/1
+ 3\n撥券日期：2026/03/24\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fdeca8692e38bb0d8b3583d0a029734958be5dae@twse-auction-calendar
-DTSTAMP:20420617T230551Z
+DTSTAMP:20110611T141833Z
 DTSTART;VALUE=DATE:20260309
 DTEND;VALUE=DATE:20260310
 SUMMARY:[TWSE競拍] 聯上六(41136) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：聯上六\n證券代號
  ：41136\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：1\,810\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：181\n主辦券商：合作金庫證券\n投標開始日：2026/0
- 3/05\n投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期
- ：2026/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
- on.html
+ 債\n轉換價(元)：20.05\n競拍方式：美國標\n競拍數量(張)：
+ 1\,810\n最低投標價格(元)：100\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：181\n主辦券商：合作金庫證券\n
+ 投標開始日：2026/03/05\n投標結束日：2026/03/09\n開標日期：
+ 2026/03/11\n撥券日期：2026/03/20\n資料來源：https://www.twse.com.
+ tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52622,52 +52647,54 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4fa96088404e68bfc4abcbcc3f2953fb2a4cef7b@twse-auction-calendar
-DTSTAMP:20460522T010158Z
+DTSTAMP:20310321T111016Z
 DTSTART;VALUE=DATE:20260310
 DTEND;VALUE=DATE:20260311
 SUMMARY:[TWSE競拍] 逸達一(65761) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：逸達一\n證券代號
  ：65761\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：3\,400\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：340\n主辦券商：元富\n投標開始日：2026/03/10\n投標
- 結束日：2026/03/12\n開標日期：2026/03/16\n撥券日期：2026/03/2
- 5\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：80.2\n競拍方式：美國標\n競拍數量(張)：3
+ \,400\n最低投標價格(元)：100\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：340\n主辦券商：元富\n投標開始日
+ ：2026/03/10\n投標結束日：2026/03/12\n開標日期：2026/03/16\n撥
+ 券日期：2026/03/25\n資料來源：https://www.twse.com.tw/zh/announcem
+ ent/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:90141f9e415cdb2a9bd9d9f0f968efc026e3f587@twse-auction-calendar
-DTSTAMP:20340313T015058Z
+DTSTAMP:20451209T034855Z
 DTSTART;VALUE=DATE:20260310
 DTEND;VALUE=DATE:20260311
 SUMMARY:[TWSE競拍] 高端疫苗二(65472) 開標
 DESCRIPTION:事件：開標\n證券名稱：高端疫苗二\n證券代號
  ：65472\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：6\,375\n最低投標價
- 格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得)標
- 數量(張)：637\n主辦券商：永豐金\n投標開始日：2026/03/04\n
- 投標結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期：202
- 6/03/19\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：120.00\n競拍方式：美國標\n競拍數量(張)
+ ：6\,375\n最低投標價格(元)：100.5\n最低每標單投標數量(張
+ )：1\n最高投(得)標數量(張)：637\n主辦券商：永豐金\n投標
+ 開始日：2026/03/04\n投標結束日：2026/03/06\n開標日期：2026/0
+ 3/10\n撥券日期：2026/03/19\n資料來源：https://www.twse.com.tw/zh/
+ announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:574df28dafa64f41ae67146268c606bb1b6a62a0@twse-auction-calendar
-DTSTAMP:20030111T040331Z
+DTSTAMP:20180913T211848Z
 DTSTART;VALUE=DATE:20260310
 DTEND;VALUE=DATE:20260311
 SUMMARY:[TWSE競拍] 鴻呈一(69131) 開標
 DESCRIPTION:事件：開標\n證券名稱：鴻呈一\n證券代號：69131
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：3\,825\n最低投標價格(元)
- ：102\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標結束
- 日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/19\n資
- 料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
+ 換價(元)：120.00\n競拍方式：美國標\n競拍數量(張)：3\,825\
+ n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n最
+ 高投(得)標數量(張)：382\n主辦券商：兆豐\n投標開始日：2
+ 026/03/04\n投標結束日：2026/03/06\n開標日期：2026/03/10\n撥券
+ 日期：2026/03/19\n資料來源：https://www.twse.com.tw/zh/announcement
+ /auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52691,54 +52718,54 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d09b45692a9142d3d55fae4b88f47e0f74d4d827@twse-auction-calendar
-DTSTAMP:20340120T132348Z
+DTSTAMP:20470108T034032Z
 DTSTART;VALUE=DATE:20260311
 DTEND;VALUE=DATE:20260312
 SUMMARY:[TWSE競拍] 今皓二(30112) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：今皓二\n證券代號
  ：30112\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：3\,850\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：385\n主辦券商：群益金鼎\n投標開始日：2026/03/11\n
- 投標結束日：2026/03/13\n開標日期：2026/03/17\n撥券日期：202
- 6/03/26\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：12.25\n競拍方式：美國標\n競拍數量(張)：
+ 3\,850\n最低投標價格(元)：100\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：385\n主辦券商：群益金鼎\n投標
+ 開始日：2026/03/11\n投標結束日：2026/03/13\n開標日期：2026/0
+ 3/17\n撥券日期：2026/03/26\n資料來源：https://www.twse.com.tw/zh/
+ announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aeec465db7edca021fe9bdfc5f29bdfc8307b5b8@twse-auction-calendar
-DTSTAMP:20080422T151438Z
+DTSTAMP:20161219T130829Z
 DTSTART;VALUE=DATE:20260311
 DTEND;VALUE=DATE:20260312
 SUMMARY:[TWSE競拍] 定穎投控二(37152) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：定穎投控二\n證券
  代號：37152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投
- 標價格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)
- 標數量(張)：850\n主辦券商：凱基\n投標開始日：2026/03/09\n
- 投標結束日：2026/03/11\n開標日期：2026/03/13\n撥券日期：202
- 6/03/24\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 公司債\n轉換價(元)：153\n競拍方式：美國標\n競拍數量(張
+ )：8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：850\n主辦券商：凱基\n投標開
+ 始日：2026/03/09\n投標結束日：2026/03/11\n開標日期：2026/03/1
+ 3\n撥券日期：2026/03/24\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:53a2678977da440a7e0b36539cf05d9272c21876@twse-auction-calendar
-DTSTAMP:20381009T110126Z
+DTSTAMP:20200820T145432Z
 DTSTART;VALUE=DATE:20260311
 DTEND;VALUE=DATE:20260312
 SUMMARY:[TWSE競拍] 聯上六(41136) 開標
 DESCRIPTION:事件：開標\n證券名稱：聯上六\n證券代號：41136
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：1\,810\n最低投標價格(元)
- ：100\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：181\n主辦券商：合作金庫證券\n投標開始日：2026/03/05\n
- 投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期：202
- 6/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
+ 換價(元)：20.05\n競拍方式：美國標\n競拍數量(張)：1\,810\n
+ 最低投標價格(元)：100\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：181\n主辦券商：合作金庫證券\n投標開
+ 始日：2026/03/05\n投標結束日：2026/03/09\n開標日期：2026/03/1
+ 1\n撥券日期：2026/03/20\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52779,17 +52806,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ba925f083a21ae17d61758064e0c4e139c94a420@twse-auction-calendar
-DTSTAMP:20150527T172258Z
+DTSTAMP:20191220T162110Z
 DTSTART;VALUE=DATE:20260312
 DTEND;VALUE=DATE:20260313
 SUMMARY:[TWSE競拍] 逸達一(65761) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：逸達一\n證券代號
  ：65761\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：3\,400\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：340\n主辦券商：元富\n投標開始日：2026/03/10\n投標
- 結束日：2026/03/12\n開標日期：2026/03/16\n撥券日期：2026/03/2
- 5\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：80.2\n競拍方式：美國標\n競拍數量(張)：3
+ \,400\n最低投標價格(元)：100\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：340\n主辦券商：元富\n投標開始日
+ ：2026/03/10\n投標結束日：2026/03/12\n開標日期：2026/03/16\n撥
+ 券日期：2026/03/25\n資料來源：https://www.twse.com.tw/zh/announcem
+ ent/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52813,18 +52841,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:edb4e3959d4bc904c6b2dfc216a6bd043a09e824@twse-auction-calendar
-DTSTAMP:20020213T114137Z
+DTSTAMP:20441013T102357Z
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
 SUMMARY:[TWSE競拍] 今皓二(30112) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：今皓二\n證券代號
  ：30112\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：3\,850\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：385\n主辦券商：群益金鼎\n投標開始日：2026/03/11\n
- 投標結束日：2026/03/13\n開標日期：2026/03/17\n撥券日期：202
- 6/03/26\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：12.25\n競拍方式：美國標\n競拍數量(張)：
+ 3\,850\n最低投標價格(元)：100\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：385\n主辦券商：群益金鼎\n投標
+ 開始日：2026/03/11\n投標結束日：2026/03/13\n開標日期：2026/0
+ 3/17\n撥券日期：2026/03/26\n資料來源：https://www.twse.com.tw/zh/
+ announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52865,17 +52893,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da21b0ac406c04c27eab40e85b07aa6c43fd05dd@twse-auction-calendar
-DTSTAMP:20410826T203615Z
+DTSTAMP:20060821T220911Z
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
 SUMMARY:[TWSE競拍] 定穎投控二(37152) 開標
 DESCRIPTION:事件：開標\n證券名稱：定穎投控二\n證券代號
  ：37152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：850\n主辦券商：凱基\n投標開始日：2026/03/09\n投標
- 結束日：2026/03/11\n開標日期：2026/03/13\n撥券日期：2026/03/2
- 4\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：153\n競拍方式：美國標\n競拍數量(張)：8\
+ ,500\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
+ 最高投(得)標數量(張)：850\n主辦券商：凱基\n投標開始日
+ ：2026/03/09\n投標結束日：2026/03/11\n開標日期：2026/03/13\n撥
+ 券日期：2026/03/24\n資料來源：https://www.twse.com.tw/zh/announcem
+ ent/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52916,34 +52945,36 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c50057260beddc80bcd7fd33482debb2286c7972@twse-auction-calendar
-DTSTAMP:20050329T002923Z
+DTSTAMP:20170605T040109Z
 DTSTART;VALUE=DATE:20260316
 DTEND;VALUE=DATE:20260317
 SUMMARY:[TWSE競拍] 逸達一(65761) 開標
 DESCRIPTION:事件：開標\n證券名稱：逸達一\n證券代號：65761
- \n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：3\,400\n最低投標價格(元)
- ：100\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：340\n主辦券商：元富\n投標開始日：2026/03/10\n投標結束
- 日：2026/03/12\n開標日期：2026/03/16\n撥券日期：2026/03/25\n資
- 料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司債\n轉
+ 換價(元)：80.2\n競拍方式：美國標\n競拍數量(張)：3\,400\n
+ 最低投標價格(元)：100\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：340\n主辦券商：元富\n投標開始日：2026
+ /03/10\n投標結束日：2026/03/12\n開標日期：2026/03/16\n撥券日
+ 期：2026/03/25\n資料來源：https://www.twse.com.tw/zh/announcement/au
+ ction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dd9fc9330719857481abd0cfba55594c4b11657f@twse-auction-calendar
-DTSTAMP:20030906T013019Z
+DTSTAMP:20150331T195032Z
 DTSTART;VALUE=DATE:20260316
 DTEND;VALUE=DATE:20260317
 SUMMARY:[TWSE競拍] 雙鴻七(33247) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：雙鴻七\n證券代號
  ：33247\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：17\,000\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：1\,700\n主辦券商：凱基\n投標開始日：2026/02/26\n投
- 標結束日：2026/03/03\n開標日期：2026/03/05\n撥券日期：2026/0
- 3/16\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：1065\n競拍方式：美國標\n競拍數量(張)：1
+ 7\,000\n最低投標價格(元)：102\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：1\,700\n主辦券商：凱基\n投標開
+ 始日：2026/02/26\n投標結束日：2026/03/03\n開標日期：2026/03/0
+ 5\n撥券日期：2026/03/16\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52967,17 +52998,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a99f2eae08eeb71923ad7884e4c5e0bf23f5dddc@twse-auction-calendar
-DTSTAMP:20461031T214834Z
+DTSTAMP:20271225T073423Z
 DTSTART;VALUE=DATE:20260317
 DTEND;VALUE=DATE:20260318
 SUMMARY:[TWSE競拍] 今皓二(30112) 開標
 DESCRIPTION:事件：開標\n證券名稱：今皓二\n證券代號：30112
- \n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司債\n競
- 拍方式：美國標\n競拍數量(張)：3\,850\n最低投標價格(元)
- ：100\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
- ：385\n主辦券商：群益金鼎\n投標開始日：2026/03/11\n投標
- 結束日：2026/03/13\n開標日期：2026/03/17\n撥券日期：2026/03/2
- 6\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ \n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司債\n轉
+ 換價(元)：12.25\n競拍方式：美國標\n競拍數量(張)：3\,850\n
+ 最低投標價格(元)：100\n最低每標單投標數量(張)：1\n最高
+ 投(得)標數量(張)：385\n主辦券商：群益金鼎\n投標開始日
+ ：2026/03/11\n投標結束日：2026/03/13\n開標日期：2026/03/17\n撥
+ 券日期：2026/03/26\n資料來源：https://www.twse.com.tw/zh/announcem
+ ent/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -53052,71 +53084,72 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cccf241234bdbb93caa7ad052abd13797cd1a3ee@twse-auction-calendar
-DTSTAMP:20010415T170843Z
+DTSTAMP:20250302T083646Z
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
 SUMMARY:[TWSE競拍] 高端疫苗二(65472) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：高端疫苗二\n證券
  代號：65472\n發行市場：櫃檯買賣\n發行性質：有擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：6\,375\n最低投
- 標價格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得
- )標數量(張)：637\n主辦券商：永豐金\n投標開始日：2026/03/
- 04\n投標結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期
- ：2026/03/19\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
- on.html
+ 公司債\n轉換價(元)：120.00\n競拍方式：美國標\n競拍數量(
+ 張)：6\,375\n最低投標價格(元)：100.5\n最低每標單投標數量
+ (張)：1\n最高投(得)標數量(張)：637\n主辦券商：永豐金\n
+ 投標開始日：2026/03/04\n投標結束日：2026/03/06\n開標日期：
+ 2026/03/10\n撥券日期：2026/03/19\n資料來源：https://www.twse.com.
+ tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75b83f881062cb3aa13cad70c764fd28c235b9b2@twse-auction-calendar
-DTSTAMP:20450508T020053Z
+DTSTAMP:20430220T053956Z
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
 SUMMARY:[TWSE競拍] 鴻呈一(69131) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：鴻呈一\n證券代號
  ：69131\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：3\,825\n最低投標價
- 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：382\n主辦券商：兆豐\n投標開始日：2026/03/04\n投標
- 結束日：2026/03/06\n開標日期：2026/03/10\n撥券日期：2026/03/1
- 9\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：120.00\n競拍方式：美國標\n競拍數量(張)
+ ：3\,825\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：382\n主辦券商：兆豐\n投標開
+ 始日：2026/03/04\n投標結束日：2026/03/06\n開標日期：2026/03/1
+ 0\n撥券日期：2026/03/19\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bc805864f2bc36869a47e8031abea506ad5c8d2b@twse-auction-calendar
-DTSTAMP:20020407T093740Z
+DTSTAMP:20300512T144748Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
 SUMMARY:[TWSE競拍] 聯上六(41136) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：聯上六\n證券代號
  ：41136\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：1\,810\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：181\n主辦券商：合作金庫證券\n投標開始日：2026/0
- 3/05\n投標結束日：2026/03/09\n開標日期：2026/03/11\n撥券日期
- ：2026/03/20\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
- on.html
+ 債\n轉換價(元)：20.05\n競拍方式：美國標\n競拍數量(張)：
+ 1\,810\n最低投標價格(元)：100\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：181\n主辦券商：合作金庫證券\n
+ 投標開始日：2026/03/05\n投標結束日：2026/03/09\n開標日期：
+ 2026/03/11\n撥券日期：2026/03/20\n資料來源：https://www.twse.com.
+ tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8eb1958c7bd67a0a40522811f4c31a4416f41257@twse-auction-calendar
-DTSTAMP:20310108T061830Z
+DTSTAMP:20380909T035148Z
 DTSTART;VALUE=DATE:20260324
 DTEND;VALUE=DATE:20260325
 SUMMARY:[TWSE競拍] 定穎投控二(37152) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：定穎投控二\n證券
  代號：37152\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
- 公司債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投
- 標價格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)
- 標數量(張)：850\n主辦券商：凱基\n投標開始日：2026/03/09\n
- 投標結束日：2026/03/11\n開標日期：2026/03/13\n撥券日期：202
- 6/03/24\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 公司債\n轉換價(元)：153\n競拍方式：美國標\n競拍數量(張
+ )：8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)
+ ：1\n最高投(得)標數量(張)：850\n主辦券商：凱基\n投標開
+ 始日：2026/03/09\n投標結束日：2026/03/11\n開標日期：2026/03/1
+ 3\n撥券日期：2026/03/24\n資料來源：https://www.twse.com.tw/zh/ann
+ ouncement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -53157,17 +53190,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f72aebc227f631bb63a6bb805b198ed2572bc9ac@twse-auction-calendar
-DTSTAMP:20120901T011136Z
+DTSTAMP:20130111T050147Z
 DTSTART;VALUE=DATE:20260325
 DTEND;VALUE=DATE:20260326
 SUMMARY:[TWSE競拍] 逸達一(65761) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：逸達一\n證券代號
  ：65761\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：3\,400\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：340\n主辦券商：元富\n投標開始日：2026/03/10\n投標
- 結束日：2026/03/12\n開標日期：2026/03/16\n撥券日期：2026/03/2
- 5\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
+ 債\n轉換價(元)：80.2\n競拍方式：美國標\n競拍數量(張)：3
+ \,400\n最低投標價格(元)：100\n最低每標單投標數量(張)：1\
+ n最高投(得)標數量(張)：340\n主辦券商：元富\n投標開始日
+ ：2026/03/10\n投標結束日：2026/03/12\n開標日期：2026/03/16\n撥
+ 券日期：2026/03/25\n資料來源：https://www.twse.com.tw/zh/announcem
+ ent/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -53191,18 +53225,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:719e503f1a8a441084ffdcd62fde2ef68793dc8e@twse-auction-calendar
-DTSTAMP:20240902T083429Z
+DTSTAMP:20010215T030326Z
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
 SUMMARY:[TWSE競拍] 今皓二(30112) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：今皓二\n證券代號
  ：30112\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n競拍方式：美國標\n競拍數量(張)：3\,850\n最低投標價
- 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
- 量(張)：385\n主辦券商：群益金鼎\n投標開始日：2026/03/11\n
- 投標結束日：2026/03/13\n開標日期：2026/03/17\n撥券日期：202
- 6/03/26\n資料來源：https://www.twse.com.tw/zh/announcement/auction.htm
- l
+ 債\n轉換價(元)：12.25\n競拍方式：美國標\n競拍數量(張)：
+ 3\,850\n最低投標價格(元)：100\n最低每標單投標數量(張)：1
+ \n最高投(得)標數量(張)：385\n主辦券商：群益金鼎\n投標
+ 開始日：2026/03/11\n投標結束日：2026/03/13\n開標日期：2026/0
+ 3/17\n撥券日期：2026/03/26\n資料來源：https://www.twse.com.tw/zh/
+ announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
