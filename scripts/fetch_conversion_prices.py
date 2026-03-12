@@ -55,11 +55,15 @@ HEADERS = {
 }
 
 CONVERSION_PRICE_PATTERNS = [
-    re.compile(r"轉換價格[：:]\s*([\d,]+(?:\.\d+)?)\s*元"),
-    re.compile(r"每股轉換價格[：:]\s*([\d,]+(?:\.\d+)?)\s*元?"),
-    re.compile(r"轉換價格\s+([\d,]+(?:\.\d+)?)"),
-    re.compile(r"轉換價[：:]\s*([\d,]+(?:\.\d+)?)\s*元?"),
+    re.compile(r"轉換價格[：:]\s*(?:新台幣|新臺幣)?\s*([\d,]+(?:\.\d+)?)\s*元"),
+    re.compile(r"每股轉換價格[：:]?\s*(?:新台幣|新臺幣)?\s*([\d,]+(?:\.\d+)?)\s*元?"),
+    re.compile(r"轉換價格\s+(?:新台幣|新臺幣)?\s*([\d,]+(?:\.\d+)?)"),
+    re.compile(r"轉換價[：:]\s*(?:新台幣|新臺幣)?\s*([\d,]+(?:\.\d+)?)\s*元?"),
 ]
+
+# 轉換價格的合理範圍（每股台幣），排除面額 100,000 等非股價數字
+_PRICE_MIN = 1.0
+_PRICE_MAX = 9999.0
 
 OUTPUT_PATH = Path(__file__).parent / "conversion_prices.json"
 
@@ -137,15 +141,38 @@ def _extract_conversion_price(pdf_bytes: bytes) -> str | None:
         text = extract_text(io.BytesIO(pdf_bytes))
     except Exception:
         return None
+
+    def _valid(price_str: str) -> bool:
+        try:
+            return _PRICE_MIN < float(price_str) < _PRICE_MAX
+        except ValueError:
+            return False
+
+    # Pass 1: direct regex patterns
     for pattern in CONVERSION_PRICE_PATTERNS:
         m = pattern.search(text)
         if m:
             price_str = m.group(1).replace(",", "")
-            try:
-                if float(price_str) > 1:
-                    return price_str
-            except ValueError:
-                continue
+            if _valid(price_str):
+                return price_str
+
+    # Pass 2: find every occurrence of 轉換價格, then look up to 500 chars
+    # after it for a monetary amount (新台幣/新臺幣 + number + 元).
+    # This handles table layouts where header and value are separated.
+    money_re = re.compile(r"(?:新台幣|新臺幣)\s*([\d,]+(?:\.\d+)?)\s*元")
+    search_start = 0
+    while True:
+        idx = text.find("轉換價格", search_start)
+        if idx < 0:
+            break
+        window = text[idx: idx + 500]
+        m = money_re.search(window)
+        if m:
+            price_str = m.group(1).replace(",", "")
+            if _valid(price_str):
+                return price_str
+        search_start = idx + 1
+
     return None
 
 
@@ -283,12 +310,6 @@ def fetch_year(session: requests.Session, roc_year: int) -> list[dict]:
             continue
 
         price = _extract_conversion_price(pdf_bytes)
-        if not price:
-            try:
-                full_text = extract_text(io.BytesIO(pdf_bytes))
-                print(f"    PDF 前400字: {full_text[:400].replace(chr(10), '|')}")
-            except Exception:
-                pass
         print(f"    -> 轉換價: {price or '未找到'}")
         results.append({
             "company": company,
