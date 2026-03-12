@@ -17,6 +17,25 @@ from urllib.request import Request, urlopen
 API_BASE = "https://www.twse.com.tw/rwd/zh/announcement"
 SOURCE_PAGE = "https://www.twse.com.tw/zh/announcement/auction.html"
 
+CONVERSION_PRICES_PATH = Path(__file__).parent / "conversion_prices.json"
+
+
+def load_conversion_price_index() -> dict[tuple[str, str], str]:
+    """Load conversion_prices.json and index by (bid_start, bid_end)."""
+    if not CONVERSION_PRICES_PATH.exists():
+        return {}
+    try:
+        entries = json.loads(CONVERSION_PRICES_PATH.read_text("utf-8"))
+    except Exception:
+        return {}
+    index: dict[tuple[str, str], str] = {}
+    for entry in entries:
+        price = entry.get("conversion_price")
+        if price:
+            key = (entry.get("bid_start", ""), entry.get("bid_end", ""))
+            index[key] = price
+    return index
+
 
 @dataclass(frozen=True)
 class CalendarEvent:
@@ -134,7 +153,11 @@ def value_or_dash(row: dict[str, str], key: str) -> str:
     return value if value else "-"
 
 
-def build_events(fields: list[str], rows: list[list[str]]) -> list[CalendarEvent]:
+def build_events(
+    fields: list[str],
+    rows: list[list[str]],
+    conversion_price_index: dict[tuple[str, str], str] | None = None,
+) -> list[CalendarEvent]:
     events: list[CalendarEvent] = []
     for raw_row in rows:
         row = normalize_row(fields, raw_row)
@@ -155,6 +178,14 @@ def build_events(fields: list[str], rows: list[list[str]]) -> list[CalendarEvent
         conversion_price = row.get("轉換價", "").strip()
 
         is_convertible = "轉換公司債" in issue_type
+
+        # Supplement with conversion_prices.json when API does not provide the value
+        if is_convertible and not conversion_price and conversion_price_index:
+            bid_start_raw = row.get("投標開始日", "").strip()
+            bid_end_raw = row.get("投標結束日", "").strip()
+            conversion_price = conversion_price_index.get(
+                (bid_start_raw, bid_end_raw), ""
+            )
 
         for date_field, event_type in EVENT_DATE_FIELDS:
             event_date = parse_twse_date(row.get(date_field, ""))
@@ -254,6 +285,7 @@ def resolve_year_range(start_year: int | None, end_year: int | None) -> tuple[in
 
 
 def fetch_all_events(start_year: int, end_year: int) -> list[CalendarEvent]:
+    conversion_price_index = load_conversion_price_index()
     all_events: list[CalendarEvent] = []
     for year in range(start_year, end_year + 1):
         payload = fetch_json(f"{API_BASE}/auction?date={year}&response=json")
@@ -264,7 +296,7 @@ def fetch_all_events(start_year: int, end_year: int) -> list[CalendarEvent]:
         rows = payload.get("data", [])
         if not isinstance(fields, list) or not isinstance(rows, list):
             continue
-        all_events.extend(build_events(fields, rows))
+        all_events.extend(build_events(fields, rows, conversion_price_index))
 
     # Deduplicate in case TWSE data overlaps between years.
     unique_by_uid: dict[str, CalendarEvent] = {}
