@@ -51133,18 +51133,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bb02bf798a41efee5486f89866d4de18117a2ab6@twse-auction-calendar
-DTSTAMP:20171026T103145Z
+DTSTAMP:20300925T125829Z
 DTSTART;VALUE=DATE:20260107
 DTEND;VALUE=DATE:20260108
 SUMMARY:[TWSE競拍] 志聖三(24673) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：志聖三\n證券代號
  ：24673\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：246.6\n競拍方式：美國標\n競拍數量(張)：
- 8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)：1
- \n最高投(得)標數量(張)：850\n主辦券商：富邦\n投標開始
- 日：2026/01/07\n投標結束日：2026/01/09\n開標日期：2026/01/13\n
- 撥券日期：2026/01/22\n資料來源：https://www.twse.com.tw/zh/announ
- cement/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：850\n主辦券商：富邦\n投標開始日：2026/01/07\n投標
+ 結束日：2026/01/09\n開標日期：2026/01/13\n撥券日期：2026/01/2
+ 2\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51288,18 +51287,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f48eadf4f82f397359fc4a0a34159264b30223f@twse-auction-calendar
-DTSTAMP:20010331T182409Z
+DTSTAMP:20050420T103906Z
 DTSTART;VALUE=DATE:20260109
 DTEND;VALUE=DATE:20260110
 SUMMARY:[TWSE競拍] 志聖三(24673) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：志聖三\n證券代號
  ：24673\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：246.6\n競拍方式：美國標\n競拍數量(張)：
- 8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)：1
- \n最高投(得)標數量(張)：850\n主辦券商：富邦\n投標開始
- 日：2026/01/07\n投標結束日：2026/01/09\n開標日期：2026/01/13\n
- 撥券日期：2026/01/22\n資料來源：https://www.twse.com.tw/zh/announ
- cement/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：850\n主辦券商：富邦\n投標開始日：2026/01/07\n投標
+ 結束日：2026/01/09\n開標日期：2026/01/13\n撥券日期：2026/01/2
+ 2\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51409,18 +51407,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c5b5b664dafff9fb8a757ab565a7ef2a0c575a75@twse-auction-calendar
-DTSTAMP:20160325T142011Z
+DTSTAMP:20211123T205253Z
 DTSTART;VALUE=DATE:20260113
 DTEND;VALUE=DATE:20260114
 SUMMARY:[TWSE競拍] 志聖三(24673) 開標
 DESCRIPTION:事件：開標\n證券名稱：志聖三\n證券代號：24673
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
- 換價(元)：246.6\n競拍方式：美國標\n競拍數量(張)：8\,500\n
- 最低投標價格(元)：102\n最低每標單投標數量(張)：1\n最高
- 投(得)標數量(張)：850\n主辦券商：富邦\n投標開始日：2026
- /01/07\n投標結束日：2026/01/09\n開標日期：2026/01/13\n撥券日
- 期：2026/01/22\n資料來源：https://www.twse.com.tw/zh/announcement/au
- ction.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
+ 拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價格(元)
+ ：102\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
+ ：850\n主辦券商：富邦\n投標開始日：2026/01/07\n投標結束
+ 日：2026/01/09\n開標日期：2026/01/13\n撥券日期：2026/01/22\n資
+ 料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51479,18 +51476,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b393ccc8f7590743a2ddeff4bca2d487780cdd3e@twse-auction-calendar
-DTSTAMP:20120803T145144Z
+DTSTAMP:20350623T234510Z
 DTSTART;VALUE=DATE:20260114
 DTEND;VALUE=DATE:20260115
 SUMMARY:[TWSE競拍] 寬魚一(61011) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：寬魚一\n證券代號
  ：61011\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n轉換價(元)：36.9\n競拍方式：美國標\n競拍數量(張)：1
- \,275\n最低投標價格(元)：100.5\n最低每標單投標數量(張)：
- 1\n最高投(得)標數量(張)：127\n主辦券商：富邦\n投標開始
- 日：2026/01/14\n投標結束日：2026/01/16\n開標日期：2026/01/20\n
- 撥券日期：2026/01/29\n資料來源：https://www.twse.com.tw/zh/announ
- cement/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：1\,275\n最低投標價
+ 格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得)標
+ 數量(張)：127\n主辦券商：富邦\n投標開始日：2026/01/14\n投
+ 標結束日：2026/01/16\n開標日期：2026/01/20\n撥券日期：2026/0
+ 1/29\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51583,18 +51579,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dda43c2d3177fe37291e560347d595ba2657f385@twse-auction-calendar
-DTSTAMP:20320420T000329Z
+DTSTAMP:20410814T231354Z
 DTSTART;VALUE=DATE:20260116
 DTEND;VALUE=DATE:20260117
 SUMMARY:[TWSE競拍] 寬魚一(61011) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：寬魚一\n證券代號
  ：61011\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n轉換價(元)：36.9\n競拍方式：美國標\n競拍數量(張)：1
- \,275\n最低投標價格(元)：100.5\n最低每標單投標數量(張)：
- 1\n最高投(得)標數量(張)：127\n主辦券商：富邦\n投標開始
- 日：2026/01/14\n投標結束日：2026/01/16\n開標日期：2026/01/20\n
- 撥券日期：2026/01/29\n資料來源：https://www.twse.com.tw/zh/announ
- cement/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：1\,275\n最低投標價
+ 格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得)標
+ 數量(張)：127\n主辦券商：富邦\n投標開始日：2026/01/14\n投
+ 標結束日：2026/01/16\n開標日期：2026/01/20\n撥券日期：2026/0
+ 1/29\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51686,18 +51681,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b959d481b25d2579de8367a0c40118fbe7c9b233@twse-auction-calendar
-DTSTAMP:20051217T104502Z
+DTSTAMP:20320929T015538Z
 DTSTART;VALUE=DATE:20260119
 DTEND;VALUE=DATE:20260120
 SUMMARY:[TWSE競拍] 勤誠三(82103) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：勤誠三\n證券代號
  ：82103\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(張)：6\,3
- 00\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
- 最高投(得)標數量(張)：630\n主辦券商：元大\n投標開始日
- ：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥
- 券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcem
- ent/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：630\n主辦券商：元大\n投標開始日：2026/01/19\n投標
+ 結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/02/0
+ 3\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51721,18 +51715,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f478f716dab666dfc654af0b0e954dc613ed53cc@twse-auction-calendar
-DTSTAMP:20240827T193938Z
+DTSTAMP:20070721T022643Z
 DTSTART;VALUE=DATE:20260119
 DTEND;VALUE=DATE:20260120
 SUMMARY:[TWSE競拍] 騰輝電子二KY(66722) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：騰輝電子二KY\n證券
  代號：66722\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
- 公司債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(張)
- ：4\,450\n最低投標價格(元)：100\n最低每標單投標數量(張)
- ：1\n最高投(得)標數量(張)：445\n主辦券商：永豐金\n投標
- 開始日：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/0
- 1/23\n撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/
- announcement/auction.html
+ 公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投
+ 標價格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)
+ 標數量(張)：445\n主辦券商：永豐金\n投標開始日：2026/01/1
+ 9\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：
+ 2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcement/auction.
+ html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51774,18 +51768,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fe97db59704b0bd8bc5aa09969fbcf2a414e8b10@twse-auction-calendar
-DTSTAMP:20250403T180605Z
+DTSTAMP:20140910T101954Z
 DTSTART;VALUE=DATE:20260120
 DTEND;VALUE=DATE:20260121
 SUMMARY:[TWSE競拍] 寬魚一(61011) 開標
 DESCRIPTION:事件：開標\n證券名稱：寬魚一\n證券代號：61011
- \n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司債\n轉
- 換價(元)：36.9\n競拍方式：美國標\n競拍數量(張)：1\,275\n
- 最低投標價格(元)：100.5\n最低每標單投標數量(張)：1\n最
- 高投(得)標數量(張)：127\n主辦券商：富邦\n投標開始日：2
- 026/01/14\n投標結束日：2026/01/16\n開標日期：2026/01/20\n撥券
- 日期：2026/01/29\n資料來源：https://www.twse.com.tw/zh/announcement
- /auction.html
+ \n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司債\n競
+ 拍方式：美國標\n競拍數量(張)：1\,275\n最低投標價格(元)
+ ：100.5\n最低每標單投標數量(張)：1\n最高投(得)標數量(張
+ )：127\n主辦券商：富邦\n投標開始日：2026/01/14\n投標結束
+ 日：2026/01/16\n開標日期：2026/01/20\n撥券日期：2026/01/29\n資
+ 料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51826,18 +51819,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f8dad293b5f54226bb0dbd80605e1b79ddcd3c5f@twse-auction-calendar
-DTSTAMP:20051126T221239Z
+DTSTAMP:20070319T004103Z
 DTSTART;VALUE=DATE:20260120
 DTEND;VALUE=DATE:20260121
 SUMMARY:[TWSE競拍] 閎康二(35872) 投標開始
 DESCRIPTION:事件：投標開始\n證券名稱：閎康二\n證券代號
  ：35872\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(張)：5\,9
- 50\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
- 最高投(得)標數量(張)：595\n主辦券商：元大\n投標開始日
- ：2026/01/20\n投標結束日：2026/01/22\n開標日期：2026/01/26\n撥
- 券日期：2026/02/04\n資料來源：https://www.twse.com.tw/zh/announcem
- ent/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：595\n主辦券商：元大\n投標開始日：2026/01/20\n投標
+ 結束日：2026/01/22\n開標日期：2026/01/26\n撥券日期：2026/02/0
+ 4\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51878,18 +51870,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ce4535f91371ebe5ea3220f4f0bb57e96a97e10b@twse-auction-calendar
-DTSTAMP:20450401T174346Z
+DTSTAMP:20120331T045926Z
 DTSTART;VALUE=DATE:20260121
 DTEND;VALUE=DATE:20260122
 SUMMARY:[TWSE競拍] 勤誠三(82103) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：勤誠三\n證券代號
  ：82103\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(張)：6\,3
- 00\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
- 最高投(得)標數量(張)：630\n主辦券商：元大\n投標開始日
- ：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥
- 券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcem
- ent/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：630\n主辦券商：元大\n投標開始日：2026/01/19\n投標
+ 結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/02/0
+ 3\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -51949,18 +51940,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:173e825dfec40c92fb8aa2a5697c0a34e7cf26dd@twse-auction-calendar
-DTSTAMP:20310726T154455Z
+DTSTAMP:20450113T221350Z
 DTSTART;VALUE=DATE:20260121
 DTEND;VALUE=DATE:20260122
 SUMMARY:[TWSE競拍] 騰輝電子二KY(66722) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：騰輝電子二KY\n證券
  代號：66722\n發行市場：櫃檯買賣\n發行性質：無擔保轉換
- 公司債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(張)
- ：4\,450\n最低投標價格(元)：100\n最低每標單投標數量(張)
- ：1\n最高投(得)標數量(張)：445\n主辦券商：永豐金\n投標
- 開始日：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/0
- 1/23\n撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/
- announcement/auction.html
+ 公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投
+ 標價格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)
+ 標數量(張)：445\n主辦券商：永豐金\n投標開始日：2026/01/1
+ 9\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：
+ 2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcement/auction.
+ html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52018,18 +52009,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1bb01caceadda31bbcd0b33480c1f3d8b5ca1ac9@twse-auction-calendar
-DTSTAMP:20361215T010204Z
+DTSTAMP:20430115T013805Z
 DTSTART;VALUE=DATE:20260122
 DTEND;VALUE=DATE:20260123
 SUMMARY:[TWSE競拍] 志聖三(24673) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：志聖三\n證券代號
  ：24673\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：246.6\n競拍方式：美國標\n競拍數量(張)：
- 8\,500\n最低投標價格(元)：102\n最低每標單投標數量(張)：1
- \n最高投(得)標數量(張)：850\n主辦券商：富邦\n投標開始
- 日：2026/01/07\n投標結束日：2026/01/09\n開標日期：2026/01/13\n
- 撥券日期：2026/01/22\n資料來源：https://www.twse.com.tw/zh/announ
- cement/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：8\,500\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：850\n主辦券商：富邦\n投標開始日：2026/01/07\n投標
+ 結束日：2026/01/09\n開標日期：2026/01/13\n撥券日期：2026/01/2
+ 2\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52053,18 +52043,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:64eb621a0002d66ae0675cf00548f82bfbb3205a@twse-auction-calendar
-DTSTAMP:20290826T063452Z
+DTSTAMP:20381227T020242Z
 DTSTART;VALUE=DATE:20260122
 DTEND;VALUE=DATE:20260123
 SUMMARY:[TWSE競拍] 閎康二(35872) 投標截止
 DESCRIPTION:事件：投標截止\n證券名稱：閎康二\n證券代號
  ：35872\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(張)：5\,9
- 50\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
- 最高投(得)標數量(張)：595\n主辦券商：元大\n投標開始日
- ：2026/01/20\n投標結束日：2026/01/22\n開標日期：2026/01/26\n撥
- 券日期：2026/02/04\n資料來源：https://www.twse.com.tw/zh/announcem
- ent/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：595\n主辦券商：元大\n投標開始日：2026/01/20\n投標
+ 結束日：2026/01/22\n開標日期：2026/01/26\n撥券日期：2026/02/0
+ 4\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52088,18 +52077,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49a5ce0399085d4c1ed4dc0f0c4cadfee545f69d@twse-auction-calendar
-DTSTAMP:20300502T181309Z
+DTSTAMP:20410122T200441Z
 DTSTART;VALUE=DATE:20260123
 DTEND;VALUE=DATE:20260124
 SUMMARY:[TWSE競拍] 勤誠三(82103) 開標
 DESCRIPTION:事件：開標\n證券名稱：勤誠三\n證券代號：82103
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
- 換價(元)：0\n競拍方式：美國標\n競拍數量(張)：6\,300\n最
- 低投標價格(元)：102\n最低每標單投標數量(張)：1\n最高投
- (得)標數量(張)：630\n主辦券商：元大\n投標開始日：2026/01
- /19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期
- ：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
- on.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
+ 拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價格(元)
+ ：102\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
+ ：630\n主辦券商：元大\n投標開始日：2026/01/19\n投標結束
+ 日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/02/03\n資
+ 料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52141,36 +52129,34 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c0a6286d4ade74d14204ff8d1f4e9deb9b50d3f4@twse-auction-calendar
-DTSTAMP:20231206T000302Z
+DTSTAMP:20380603T160414Z
 DTSTART;VALUE=DATE:20260123
 DTEND;VALUE=DATE:20260124
 SUMMARY:[TWSE競拍] 騰輝電子二KY(66722) 開標
 DESCRIPTION:事件：開標\n證券名稱：騰輝電子二KY\n證券代號
  ：66722\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(張)：4\,4
- 50\n最低投標價格(元)：100\n最低每標單投標數量(張)：1\n
- 最高投(得)標數量(張)：445\n主辦券商：永豐金\n投標開始
- 日：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n
- 撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announ
- cement/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低投標價
+ 格(元)：100\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：445\n主辦券商：永豐金\n投標開始日：2026/01/19\n投
+ 標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/0
+ 2/03\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8f6f1aed700d8db6d5dfcbd39d3c75674f5ebf43@twse-auction-calendar
-DTSTAMP:20140907T124438Z
+DTSTAMP:20261109T183950Z
 DTSTART;VALUE=DATE:20260126
 DTEND;VALUE=DATE:20260127
 SUMMARY:[TWSE競拍] 閎康二(35872) 開標
 DESCRIPTION:事件：開標\n證券名稱：閎康二\n證券代號：35872
- \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n轉
- 換價(元)：0\n競拍方式：美國標\n競拍數量(張)：5\,950\n最
- 低投標價格(元)：102\n最低每標單投標數量(張)：1\n最高投
- (得)標數量(張)：595\n主辦券商：元大\n投標開始日：2026/01
- /20\n投標結束日：2026/01/22\n開標日期：2026/01/26\n撥券日期
- ：2026/02/04\n資料來源：https://www.twse.com.tw/zh/announcement/aucti
- on.html
+ \n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司債\n競
+ 拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價格(元)
+ ：102\n最低每標單投標數量(張)：1\n最高投(得)標數量(張)
+ ：595\n主辦券商：元大\n投標開始日：2026/01/20\n投標結束
+ 日：2026/01/22\n開標日期：2026/01/26\n撥券日期：2026/02/04\n資
+ 料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52264,18 +52250,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5c6d6e73529f434edad25b5526f137418d364fa0@twse-auction-calendar
-DTSTAMP:20010930T182816Z
+DTSTAMP:20131209T115000Z
 DTSTART;VALUE=DATE:20260129
 DTEND;VALUE=DATE:20260130
 SUMMARY:[TWSE競拍] 寬魚一(61011) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：寬魚一\n證券代號
  ：61011\n發行市場：櫃檯買賣\n發行性質：有擔保轉換公司
- 債\n轉換價(元)：36.9\n競拍方式：美國標\n競拍數量(張)：1
- \,275\n最低投標價格(元)：100.5\n最低每標單投標數量(張)：
- 1\n最高投(得)標數量(張)：127\n主辦券商：富邦\n投標開始
- 日：2026/01/14\n投標結束日：2026/01/16\n開標日期：2026/01/20\n
- 撥券日期：2026/01/29\n資料來源：https://www.twse.com.tw/zh/announ
- cement/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：1\,275\n最低投標價
+ 格(元)：100.5\n最低每標單投標數量(張)：1\n最高投(得)標
+ 數量(張)：127\n主辦券商：富邦\n投標開始日：2026/01/14\n投
+ 標結束日：2026/01/16\n開標日期：2026/01/20\n撥券日期：2026/0
+ 1/29\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -52333,54 +52318,52 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e751855f35c3844de06f95de37befb62193f7ee8@twse-auction-calendar
-DTSTAMP:20050206T225749Z
+DTSTAMP:20081211T184153Z
 DTSTART;VALUE=DATE:20260203
 DTEND;VALUE=DATE:20260204
 SUMMARY:[TWSE競拍] 勤誠三(82103) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：勤誠三\n證券代號
  ：82103\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(張)：6\,3
- 00\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
- 最高投(得)標數量(張)：630\n主辦券商：元大\n投標開始日
- ：2026/01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥
- 券日期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcem
- ent/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：6\,300\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：630\n主辦券商：元大\n投標開始日：2026/01/19\n投標
+ 結束日：2026/01/21\n開標日期：2026/01/23\n撥券日期：2026/02/0
+ 3\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c25ee815bf20c876705ecb0954b644b821d76361@twse-auction-calendar
-DTSTAMP:20400418T175031Z
+DTSTAMP:20290825T130905Z
 DTSTART;VALUE=DATE:20260203
 DTEND;VALUE=DATE:20260204
 SUMMARY:[TWSE競拍] 騰輝電子二KY(66722) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：騰輝電子二KY\n證
  券代號：66722\n發行市場：櫃檯買賣\n發行性質：無擔保轉
- 換公司債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(
- 張)：4\,450\n最低投標價格(元)：100\n最低每標單投標數量(
- 張)：1\n最高投(得)標數量(張)：445\n主辦券商：永豐金\n投
- 標開始日：2026/01/19\n投標結束日：2026/01/21\n開標日期：202
- 6/01/23\n撥券日期：2026/02/03\n資料來源：https://www.twse.com.tw/
- zh/announcement/auction.html
+ 換公司債\n競拍方式：美國標\n競拍數量(張)：4\,450\n最低
+ 投標價格(元)：100\n最低每標單投標數量(張)：1\n最高投(
+ 得)標數量(張)：445\n主辦券商：永豐金\n投標開始日：2026/
+ 01/19\n投標結束日：2026/01/21\n開標日期：2026/01/23\n撥券日
+ 期：2026/02/03\n資料來源：https://www.twse.com.tw/zh/announcement/au
+ ction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65b47268b37fa52b5e9138fd7c1214bf3ca60b47@twse-auction-calendar
-DTSTAMP:20000404T003132Z
+DTSTAMP:20280124T074243Z
 DTSTART;VALUE=DATE:20260204
 DTEND;VALUE=DATE:20260205
 SUMMARY:[TWSE競拍] 閎康二(35872) 撥券/掛牌
 DESCRIPTION:事件：撥券/掛牌\n證券名稱：閎康二\n證券代號
  ：35872\n發行市場：櫃檯買賣\n發行性質：無擔保轉換公司
- 債\n轉換價(元)：0\n競拍方式：美國標\n競拍數量(張)：5\,9
- 50\n最低投標價格(元)：102\n最低每標單投標數量(張)：1\n
- 最高投(得)標數量(張)：595\n主辦券商：元大\n投標開始日
- ：2026/01/20\n投標結束日：2026/01/22\n開標日期：2026/01/26\n撥
- 券日期：2026/02/04\n資料來源：https://www.twse.com.tw/zh/announcem
- ent/auction.html
+ 債\n競拍方式：美國標\n競拍數量(張)：5\,950\n最低投標價
+ 格(元)：102\n最低每標單投標數量(張)：1\n最高投(得)標數
+ 量(張)：595\n主辦券商：元大\n投標開始日：2026/01/20\n投標
+ 結束日：2026/01/22\n開標日期：2026/01/26\n撥券日期：2026/02/0
+ 4\n資料來源：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
