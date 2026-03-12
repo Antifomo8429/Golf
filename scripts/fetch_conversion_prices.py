@@ -129,7 +129,12 @@ def _extract_conversion_price(pdf_bytes: bytes) -> str | None:
     for pattern in CONVERSION_PRICE_PATTERNS:
         m = pattern.search(text)
         if m:
-            return m.group(1).replace(",", "")
+            price_str = m.group(1).replace(",", "")
+            try:
+                if float(price_str) > 1:
+                    return price_str
+            except ValueError:
+                continue
     return None
 
 
@@ -137,10 +142,13 @@ def _download_pdf(
     session: requests.Session,
     hidden: dict[str, str],
     btn_name: str,
-) -> bytes | None:
+) -> tuple[bytes | None, dict[str, str]]:
+    """POST form to download PDF. Returns (pdf_bytes_or_None, updated_hidden_fields)."""
     form_data = dict(hidden)
     form_data[btn_name + ".x"] = "10"
     form_data[btn_name + ".y"] = "10"
+    form_data["ctl00$cphMain$rblReportType"] = "Auction"
+    pdf_bytes = None
     try:
         resp = session.post(
             LIST_URL,
@@ -150,17 +158,25 @@ def _download_pdf(
             allow_redirects=True,
         )
         resp.raise_for_status()
-        if resp.content[:4] == b"%PDF" or "pdf" in resp.headers.get("Content-Type", ""):
-            return resp.content
-        # Server may redirect to FileDownload.ashx
-        if "FileDownload" in resp.url:
-            dl = session.get(resp.url, headers=HEADERS, timeout=30)
-            dl.raise_for_status()
-            if dl.content[:4] == b"%PDF":
-                return dl.content
+        content_type = resp.headers.get("Content-Type", "")
+        if resp.content[:4] == b"%PDF" or "pdf" in content_type:
+            pdf_bytes = resp.content
+        elif "FileDownload" in resp.url:
+            # requests followed a redirect to FileDownload.ashx; content is PDF
+            if resp.content[:4] == b"%PDF":
+                pdf_bytes = resp.content
     except Exception as exc:
         print(f"    下載失敗: {exc}")
-    return None
+
+    # Re-fetch the listing page to get a fresh VIEWSTATE for the next request
+    try:
+        refresh = session.get(LIST_URL, headers=HEADERS, timeout=30)
+        refresh.raise_for_status()
+        new_hidden, _ = _parse_page(refresh.text)
+    except Exception:
+        new_hidden = hidden
+
+    return pdf_bytes, new_hidden
 
 
 def _get_year_page(session: requests.Session, roc_year: int) -> tuple[str, dict[str, str], list[dict]]:
@@ -200,7 +216,7 @@ def fetch_year(session: requests.Session, roc_year: int) -> list[dict]:
         company = row["company"]
         print(f"  處理: {company} {row['bid_start']}~{row['bid_end']} ...")
 
-        pdf_bytes = _download_pdf(session, hidden, row["btn_name"])
+        pdf_bytes, hidden = _download_pdf(session, hidden, row["btn_name"])
         if pdf_bytes is None:
             print(f"    -> 無法下載 PDF，跳過")
             results.append({

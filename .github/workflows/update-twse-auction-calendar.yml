@@ -3,9 +3,8 @@ name: Update TWSE auction calendar
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 1 * * *"
-    - cron: "02 2 * * *"   # 台灣時間 09:17
-    - cron: "30 7 * * *"   # 台灣時間 15:13
+    - cron: "02 2 * * *"   # 台灣時間 10:02
+    - cron: "00 8 * * *"   # 台灣時間 16:00
 
 permissions:
   contents: write
@@ -13,6 +12,8 @@ permissions:
 jobs:
   update-calendar:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
