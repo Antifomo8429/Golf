@@ -53119,6 +53119,23 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:5b41b2f2a0cb1602a23275d3dbf39204dcd6be18@twse-auction-calendar
+DTSTAMP:20481029T134051Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:[TWSE競拍] 泰宗(4169) 投標開始
+DESCRIPTION:事件：投標開始\n證券名稱：泰宗\n證券代號：41
+ 69\n發行市場：集中交易市場\n發行性質：初上市\n競拍方
+ 式：美國標\n競拍數量(張)：5\,316\n最低投標價格(元)：85\n
+ 最低每標單投標數量(張)：1\n最高投(得)標數量(張)：669\n
+ 主辦券商：元大\n投標開始日：2026/03/20\n投標結束日：2026
+ /03/24\n開標日期：2026/03/26\n撥券日期：2026/04/08\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bc805864f2bc36869a47e8031abea506ad5c8d2b@twse-auction-calendar
 DTSTAMP:20300512T144748Z
 DTSTART;VALUE=DATE:20260320
@@ -53150,6 +53167,23 @@ DESCRIPTION:事件：撥券/掛牌\n證券名稱：定穎投控二\n證券
  始日：2026/03/09\n投標結束日：2026/03/11\n開標日期：2026/03/1
  3\n撥券日期：2026/03/24\n資料來源：https://www.twse.com.tw/zh/ann
  ouncement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a9ec9129277c09b83001723b4105e2bbc3b0b7c8@twse-auction-calendar
+DTSTAMP:20350102T204433Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:[TWSE競拍] 泰宗(4169) 投標截止
+DESCRIPTION:事件：投標截止\n證券名稱：泰宗\n證券代號：41
+ 69\n發行市場：集中交易市場\n發行性質：初上市\n競拍方
+ 式：美國標\n競拍數量(張)：5\,316\n最低投標價格(元)：85\n
+ 最低每標單投標數量(張)：1\n最高投(得)標數量(張)：669\n
+ 主辦券商：元大\n投標開始日：2026/03/20\n投標結束日：2026
+ /03/24\n開標日期：2026/03/26\n撥券日期：2026/04/08\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -53242,6 +53276,23 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:c67f176367f9a29d0058c397cdfa1fcbd69b56dd@twse-auction-calendar
+DTSTAMP:20100824T074257Z
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+SUMMARY:[TWSE競拍] 泰宗(4169) 開標
+DESCRIPTION:事件：開標\n證券名稱：泰宗\n證券代號：4169\n
+ 發行市場：集中交易市場\n發行性質：初上市\n競拍方式
+ ：美國標\n競拍數量(張)：5\,316\n最低投標價格(元)：85\n最
+ 低每標單投標數量(張)：1\n最高投(得)標數量(張)：669\n主
+ 辦券商：元大\n投標開始日：2026/03/20\n投標結束日：2026/03
+ /24\n開標日期：2026/03/26\n撥券日期：2026/04/08\n資料來源：h
+ ttps://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6b0b7963f838a4e66daffd91fe335f9762784929@twse-auction-calendar
 DTSTAMP:20431130T002413Z
 DTSTART;VALUE=DATE:20260330
@@ -53271,6 +53322,23 @@ DESCRIPTION:事件：撥券/掛牌\n證券名稱：公勝保經\n證券代
  258\n主辦券商：台新\n投標開始日：2026/03/13\n投標結束日
  ：2026/03/17\n開標日期：2026/03/19\n撥券日期：2026/03/30\n資料
  來源：https://www.twse.com.tw/zh/announcement/auction.html
+URL:https://www.twse.com.tw/zh/announcement/auction.html
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:75c13437a45e0300a5fd6661752ec92c5bbb93fc@twse-auction-calendar
+DTSTAMP:20130403T060929Z
+DTSTART;VALUE=DATE:20260408
+DTEND;VALUE=DATE:20260409
+SUMMARY:[TWSE競拍] 泰宗(4169) 撥券/掛牌
+DESCRIPTION:事件：撥券/掛牌\n證券名稱：泰宗\n證券代號：4
+ 169\n發行市場：集中交易市場\n發行性質：初上市\n競拍方
+ 式：美國標\n競拍數量(張)：5\,316\n最低投標價格(元)：85\n
+ 最低每標單投標數量(張)：1\n最高投(得)標數量(張)：669\n
+ 主辦券商：元大\n投標開始日：2026/03/20\n投標結束日：2026
+ /03/24\n開標日期：2026/03/26\n撥券日期：2026/04/08\n資料來源
+ ：https://www.twse.com.tw/zh/announcement/auction.html
 URL:https://www.twse.com.tw/zh/announcement/auction.html
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
